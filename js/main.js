@@ -20,17 +20,17 @@
 			}
 			$this.data('omza-slider', 1);
 
-			function sliderUpdate(value) {
-				var width = $bg.width();
-				value = Math.max(0, Math.min(value, width));
-				$inner.css('width', value);
-				$inner.data('pct', value/width);
+			function sliderUpdate(pct) {
+				pct = Math.max(0, Math.min(pct, 100));
+				$inner.css('width', pct+'%');
+				$inner.data('pct', pct);
 			}
 
 			function slideMousemove(e) {
+				var width = $bg.width();
 				var left = $inner.offset().left;
 				var fill = e.pageX - left;
-				sliderUpdate(fill);
+				sliderUpdate(fill*100/width);
 				e.stopPropagation();
 			}
 
@@ -45,7 +45,7 @@
 			});
 
 			var initial = $this.data('pct') !== undefined ? (+$this.data('pct')) : 50;
-			sliderUpdate(initial/100 * $bg.width());
+			sliderUpdate(initial);
 
 			return this;
 		}

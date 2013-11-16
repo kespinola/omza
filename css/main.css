@@ -273,25 +273,79 @@ h1, h2, h3, h4 {
 .header {
   background-color: #acbd73;
   height: 60px;
-  padding: 12px 16px; }
+  padding: 12px 16px;
+  position: fixed;
+  top: 0;
+  width: 100%; }
 
 .logo {
   color: #c7d694;
   font-size: 24px; }
 
+.studio-img {
+  background-size: cover;
+  background-color: transparent;
+  /* Hardcode for now */
+  background-image: url(../img/divinitree.jpg);
+  border-radius: 50px;
+  border: 6px solid #ffeee0;
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 10px;
+  right: 50%;
+  margin-right: -50px; }
+
 .content {
-  padding: 16px 20px;
-  text-align: center; }
+  padding: 0 20px;
+  margin-top: 80px;
+  text-align: center;
+  white-space: nowrap;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden; }
+
+.pane {
+  display: inline-block;
+  width: 100%;
+  white-space: normal;
+  margin-top: 40px; }
 
 .pane h1, .pane h2, .pane h3, .pane h4 {
   color: #C2B3A7;
   margin: 0; }
+
+.pane1 {
+  margin-top: 40px; }
 
 .pane1-head {
   margin-bottom: 16px; }
 
 .pane1 .btn-large {
   margin-top: 30px; }
+
+.pane2 {
+  width: 100%;
+  min-width: 100%;
+  text-align: left;
+  padding-right: 20px; }
+
+.class-list {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .class-list li {
+    list-style: none;
+    display: lock;
+    height: 40px;
+    padding: 12px 16px;
+    margin-left: 6px;
+    margin-bottom: 6px;
+    background: #f6f6f6;
+    box-sizing: border-box;
+    moz-box-sizing: border-box;
+    width: 100%;
+    max-width: 600px; }
 
 /**
  * SLIDERS
@@ -312,41 +366,35 @@ h1, h2, h3, h4 {
 
 .slider-strength .slider-i {
   background-color: #be9876; }
-
 .slider-strength .slider-img {
   background-image: url(../img/attr-strength.png); }
 
 .slider-spirit .slider-i {
   background-color: #a985b8; }
-
 .slider-spirit .slider-img {
   background-image: url(../img/attr-spirit.png); }
 
 .slider-flex .slider-i {
   background-color: #3498db; }
-
 .slider-flex .slider-img {
   background-image: url(../img/attr-flex.png); }
 
 .slider-balance .slider-i {
   background-color: #1abc9c; }
-
 .slider-balance .slider-img {
   background-image: url(../img/attr-balance.png); }
 
 .slider-tempo .slider-i {
   background-color: #f7e086; }
-
 .slider-tempo .slider-img {
   background-image: url(../img/attr-tempo.png); }
-
 .slider-tempo .slider-i .slider-l {
-  color: #C4A633; }
+  color: #be9a0d; }
 
 .slider-bg {
   background-color: #f6f6f6;
-  box-shadow: inset 0 0 8px rgba(0, 0, 0, 0.05);
   border-radius: 3px;
+  border: 1px solid #f0f0f0;
   height: 30px;
   margin-left: 85px;
   position: relative;
@@ -356,7 +404,8 @@ h1, h2, h3, h4 {
   border-radius: 3px;
   height: 30px;
   position: relative;
-  overflow: hidden; }
+  overflow: hidden;
+  max-width: 100%; }
 
 .slider-l {
   line-height: 30px;
@@ -374,11 +423,32 @@ h1, h2, h3, h4 {
  * Media Queries
  */
 @media only screen and (min-width: 720px) {
+  .content {
+    margin-top: 80px;
+    max-width: none; }
+
+  .pane {
+    width: auto;
+    float: left; }
+
   .pane1 {
-    width: 300px; }
+    width: 300px;
+    position: relative;
+    z-index: 6; }
 
   .pane1-head {
-    text-align: left; }
+    display: none; }
 
   .pane1 .btn-find {
-    display: none; } }
+    display: none; }
+
+  .pane2 {
+    position: absolute;
+    padding-left: 340px;
+    left: 0;
+    top: 0; } }
+@media only screen and (min-width: 1200px) {
+  .class-list li {
+    width: 32%;
+    max-width: none;
+    float: left; } }
