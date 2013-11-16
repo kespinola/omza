@@ -246,7 +246,8 @@ body {
   background-color: #ffeee0; }
 
 h1, h2, h3, h4 {
-  font-family: 'Helvetica Neue', Helvetica, sans-serif; }
+  font-family: 'Helvetica Neue', Helvetica, sans-serif;
+  font-weight: 100; }
 
 .btn-primary {
   background-color: #c7d694;
@@ -282,8 +283,7 @@ h1, h2, h3, h4 {
   padding: 16px 20px;
   text-align: center; }
 
-.pane h1, .pane h3 {
-  font-weight: 100;
+.pane h1, .pane h2, .pane h3, .pane h4 {
   color: #C2B3A7;
   margin: 0; }
 
@@ -369,3 +369,16 @@ h1, h2, h3, h4 {
 
 .slider-i .slider-l {
   color: #f0f0f0; }
+
+/**
+ * Media Queries
+ */
+@media only screen and (min-width: 720px) {
+  .pane1 {
+    width: 300px; }
+
+  .pane1-head {
+    text-align: left; }
+
+  .pane1 .btn-find {
+    display: none; } }

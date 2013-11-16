@@ -321,6 +321,7 @@ body {
 }
 h1, h2, h3, h4 {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 100;
 }
 $green: #c7d694;
 .btn-primary {
@@ -360,8 +361,7 @@ $green: #c7d694;
     padding: 16px 20px;
     text-align: center;
 }
-.pane h1, .pane h3 {
-    font-weight: 100;
+.pane h1, .pane h2, .pane h3, .pane h4 {
     color: #C2B3A7;
     margin: 0;
 }
@@ -449,3 +449,18 @@ $green: #c7d694;
 .slider-i .slider-l {
     color: #f0f0f0;
 }
+
+/**
+ * Media Queries
+ */
+ @media only screen and (min-width: 720px) {
+    .pane1 {
+        width: 300px;
+    }
+    .pane1-head {
+        text-align: left;
+    }
+    .pane1 .btn-find {
+        display: none;
+    }
+ }
