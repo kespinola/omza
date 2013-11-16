@@ -313,6 +313,19 @@ body {
 h1, h2, h3, h4 {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
+.btn-primary {
+    background-color: #c7d694;
+    border-color: #becf84;
+}
+.btn-large {
+    font-size: 24px;
+    font-weight: 100;
+    width: 100%;
+}
+
+/**
+ * PAGE STRUCTURE
+ */
 .header {
     background-color: #acbd73;
     height: 60px;
@@ -326,34 +339,90 @@ h1, h2, h3, h4 {
     padding: 16px 20px;
     text-align: center;
 }
-.pane h1 {
+.pane h1, .pane h3 {
     font-weight: 100;
     color: #bababa;
+    margin: 0;
 }
+.pane1-head {
+    margin-bottom: 16px;
+}
+.pane1 .btn-large {
+    margin-top: 10px;
+}
+
+/**
+ * SLIDERS
+ */
 .slider {
+    position: relative;
+    height: 80px;
+    padding-top: 24px;
 }
 .slider-img {
-
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 75px;
+    height: 75px;
+    background-color: transparent;
+    background-size: contain;
+}
+.slider-strength .slider-i {
+    background-color: #be9876;
+}
+.slider-strength .slider-img {
+    background-image: url(../img/attr-strength.png);
+}
+.slider-spirit .slider-i {
+    background-color: #a985b8;
+}
+.slider-spirit .slider-img {
+    background-image: url(../img/attr-spirit.png);
+}
+.slider-flex .slider-i {
+    background-color: #3498db;
+}
+.slider-flex .slider-img {
+    background-image: url(../img/attr-flex.png);
+}
+.slider-balance .slider-i {
+    background-color: #1abc9c;
+}
+.slider-balance .slider-img {
+    background-image: url(../img/attr-balance.png);
+}
+.slider-tempo .slider-i {
+    background-color: #f7e086;
+}
+.slider-tempo .slider-img {
+    background-image: url(../img/attr-tempo.png);
 }
 .slider-bg {
     background-color: #f6f6f6;
     box-shadow: inset 0 0 8px rgba(0,0,0,0.05);
     border-radius: 3px;
     height: 30px;
-    display: block;
+    margin-left: 85px;
     position: relative;
+    cursor: pointer;
 }
 .slider-i {
-    background-color: #be9876;
-    width: 60%;
+    width: 20%;
     border-radius: 3px;
     height: 30px;
+    position: relative;
+    overflow: hidden;
 }
 .slider-l {
-    line-height: 28px;
-    color: #e6e6e6;
+    line-height: 30px;
+    color: #999;
     font-weight: 100;
     position: absolute;
     top: 0;
     left: 12px;
+    font-size: 16px;
+}
+.slider-i .slider-l {
+    color: #f0f0f0;
 }
