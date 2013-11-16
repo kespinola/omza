@@ -254,17 +254,17 @@ h1, h2, h3, h4 {
   color: #C2B3A7; }
 
 .btn-primary {
-  background-color: #c7d694;
-  border-color: #c1d289; }
+  background-color: #a456a2;
+  border-color: #9a5198; }
   .btn-primary:hover, .btn-primary:focus {
     outline: none;
-    background-color: #c1d289;
-    border-color: #bbce7e; }
+    background-color: #9a5198;
+    border-color: #904b8e; }
   .btn-primary:active {
     outline: none;
     box-shadow: none;
-    background-color: #b6c973;
-    border-color: #b0c568; }
+    background-color: #864684;
+    border-color: #7c417a; }
 
 .btn-large {
   font-size: 24px;
