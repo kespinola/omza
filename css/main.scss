@@ -324,10 +324,18 @@ h1, h2, h3, h4 {
 }
 $green: #c7d694;
 .btn-primary {
-    background-color: #c7d694;
-    border-color: #becf84;
-    &:hover {
-
+    background-color: $green;
+    border-color: darken($green, 3%);
+    &:hover, &:focus {
+        outline: none;
+        background-color: darken($green, 3%);
+        border-color: darken($green, 6%);
+    }
+    &:active {
+        outline: none;
+        box-shadow: none;
+        background-color: darken($green, 9%);
+        border-color: darken($green, 12%);
     }
 }
 .btn-large {
@@ -354,7 +362,7 @@ $green: #c7d694;
 }
 .pane h1, .pane h3 {
     font-weight: 100;
-    color: #bababa;
+    color: #C2B3A7;
     margin: 0;
 }
 .pane1-head {
@@ -410,6 +418,9 @@ $green: #c7d694;
 }
 .slider-tempo .slider-img {
     background-image: url(../img/attr-tempo.png);
+}
+.slider-tempo .slider-i .slider-l {
+    color: #C4A633;
 }
 .slider-bg {
     background-color: #f6f6f6;

@@ -23,6 +23,7 @@
 			function sliderUpdate(e) {
 				var left = $inner.offset().left;
 				var fill = e.pageX - left;
+				fill = Math.min(fill, $bg.width());
 				$inner.css('width', fill);
 				e.stopPropagation();
 			}

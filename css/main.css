@@ -250,7 +250,16 @@ h1, h2, h3, h4 {
 
 .btn-primary {
   background-color: #c7d694;
-  border-color: #becf84; }
+  border-color: #c1d289; }
+  .btn-primary:hover, .btn-primary:focus {
+    outline: none;
+    background-color: #c1d289;
+    border-color: #bbce7e; }
+  .btn-primary:active {
+    outline: none;
+    box-shadow: none;
+    background-color: #b6c973;
+    border-color: #b0c568; }
 
 .btn-large {
   font-size: 24px;
@@ -275,7 +284,7 @@ h1, h2, h3, h4 {
 
 .pane h1, .pane h3 {
   font-weight: 100;
-  color: #bababa;
+  color: #C2B3A7;
   margin: 0; }
 
 .pane1-head {
@@ -330,6 +339,9 @@ h1, h2, h3, h4 {
 
 .slider-tempo .slider-img {
   background-image: url(../img/attr-tempo.png); }
+
+.slider-tempo .slider-i .slider-l {
+  color: #C4A633; }
 
 .slider-bg {
   background-color: #f6f6f6;
