@@ -18,6 +18,9 @@ html {
   font-size: 1em;
   line-height: 1.4; }
 
+body {
+  color: #666; }
+
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -243,7 +246,7 @@ textarea {
  * OHMZA
  ******/
 body {
-  background-color: #ffeee0; }
+  background-color: #fff6ee; }
 
 h1, h2, h3, h4 {
   font-family: 'Helvetica Neue', Helvetica, sans-serif;
@@ -272,7 +275,8 @@ h1, h2, h3, h4 {
  * PAGE STRUCTURE
  */
 .header {
-  background-color: #acbd73;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #f3f3f3;
   height: 60px;
   padding: 8px 16px 12px 8px;
   position: fixed;
@@ -282,7 +286,7 @@ h1, h2, h3, h4 {
 .logo {
   color: #c7d694;
   font-size: 24px;
-  width: 130px;
+  width: 142px;
   height: 42px;
   text-indent: -9001px;
   background-image: url(../img/omza-logo.png); }
@@ -302,7 +306,7 @@ h1, h2, h3, h4 {
   /* Hardcode for now */
   background-image: url(../img/divinitree.jpg);
   border-radius: 50px;
-  border: 5px solid #ffeee0;
+  border: 5px solid #fff6ee;
   width: 100px;
   height: 100px;
   margin: 0 auto; }
@@ -351,7 +355,7 @@ h1, h2, h3, h4 {
     padding: 12px 16px;
     margin-left: 6px;
     margin-bottom: 6px;
-    background: #f6f6f6;
+    background: #fff;
     box-sizing: border-box;
     moz-box-sizing: border-box;
     width: 100%;
@@ -402,9 +406,8 @@ h1, h2, h3, h4 {
   color: #be9a0d; }
 
 .slider-bg {
-  background-color: #f6f6f6;
+  background-color: #fff;
   border-radius: 3px;
-  border: 1px solid #f0f0f0;
   height: 30px;
   margin-left: 85px;
   position: relative;
@@ -424,7 +427,8 @@ h1, h2, h3, h4 {
   position: absolute;
   top: 0;
   left: 12px;
-  font-size: 16px; }
+  font-size: 16px;
+  letter-spacing: 1px; }
 
 .slider-i .slider-l {
   color: #f0f0f0; }
