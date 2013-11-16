@@ -20,23 +20,32 @@
 			}
 			$this.data('omza-slider', 1);
 
-			function sliderUpdate(e) {
+			function sliderUpdate(value) {
+				var width = $bg.width();
+				value = Math.max(0, Math.min(value, width));
+				$inner.css('width', value);
+				$inner.data('pct', value/width);
+			}
+
+			function slideMousemove(e) {
 				var left = $inner.offset().left;
 				var fill = e.pageX - left;
-				fill = Math.min(fill, $bg.width());
-				$inner.css('width', fill);
+				sliderUpdate(fill);
 				e.stopPropagation();
 			}
 
 			$bg.on('mousedown', function() {
-				$this.on('mousemove', sliderUpdate);
+				$this.on('mousemove', slideMousemove);
 			}).on('mouseup', function() {
-				$this.off('mousemove', sliderUpdate);
-			}).on('click', sliderUpdate);
+				$this.off('mousemove', slideMousemove);
+			}).on('click', slideMousemove);
 
 			$doc.on('click', function () {
-				$this.off('mousemove', sliderUpdate);
+				$this.off('mousemove', slideMousemove);
 			});
+
+			var initial = $this.data('pct') !== undefined ? (+$this.data('pct')) : 50;
+			sliderUpdate(initial/100 * $bg.width());
 
 			return this;
 		}
@@ -44,6 +53,6 @@
 		this.each(slider);
 	};
 
-	$(ready);
+	ready();
 
 })(window, jQuery);
