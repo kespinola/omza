@@ -303,6 +303,15 @@ textarea {
     }
 }
 
+.nosel {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
 
 /******
  * OHMZA
@@ -313,9 +322,13 @@ body {
 h1, h2, h3, h4 {
     font-family: 'Helvetica Neue', Helvetica, sans-serif;
 }
+$green: #c7d694;
 .btn-primary {
     background-color: #c7d694;
     border-color: #becf84;
+    &:hover {
+
+    }
 }
 .btn-large {
     font-size: 24px;
@@ -348,7 +361,7 @@ h1, h2, h3, h4 {
     margin-bottom: 16px;
 }
 .pane1 .btn-large {
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 /**
@@ -356,7 +369,7 @@ h1, h2, h3, h4 {
  */
 .slider {
     position: relative;
-    height: 80px;
+    height: 60px;
     padding-top: 24px;
 }
 .slider-img {
