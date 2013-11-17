@@ -79,7 +79,7 @@
 		var results = [];
 		$.each(classes, function(i){
 			this.id = i;
-			if (Math.random() < 0.5) {
+			if (Math.random()*10 < (new Date()).getTime() % 10) {
 				results.push(this);
 			}
 		});
