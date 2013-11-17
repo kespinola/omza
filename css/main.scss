@@ -338,6 +338,7 @@ textarea {
  * OHMZA
  ******/
 $beige: #fff6ee;
+$darkBeige: #D6C3AF;
 body {
     background-color: $beige;
 }
@@ -409,6 +410,7 @@ $studoWidth: 100px;
     h3 {
         padding: 0 6px;
         background-color: #fff6ee;
+        color: $darkBeige;
     }
 }
 .mode-1 .subhead {
@@ -947,6 +949,15 @@ $panePadding: 20px;
     .mode-1 {
         .slider {
             margin-left: 20px;
+        }
+        .sub-pane1 h1 {
+            font-size: 72px;
+            color: $darkBeige;
+        }
+        .sub-pane1 h4 {
+            font-size: 24px;
+            margin: 10px 0;
+            color: $darkBeige;
         }
     }
     .sub-pane1 {

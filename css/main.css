@@ -326,7 +326,8 @@ h1, h2, h3, h4 {
   display: block; }
   .subhead h3 {
     padding: 0 6px;
-    background-color: #fff6ee; }
+    background-color: #fff6ee;
+    color: #d6c3af; }
 
 .mode-1 .subhead {
   display: none; }
@@ -817,6 +818,13 @@ h1, h2, h3, h4 {
 
   .mode-1 .slider {
     margin-left: 20px; }
+  .mode-1 .sub-pane1 h1 {
+    font-size: 72px;
+    color: #d6c3af; }
+  .mode-1 .sub-pane1 h4 {
+    font-size: 24px;
+    margin: 10px 0;
+    color: #d6c3af; }
 
   .sub-pane1 {
     display: inline-block;

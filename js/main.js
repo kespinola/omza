@@ -33,7 +33,7 @@
 		else if (/s\//.test(path)) {
 			mode = ROUTE_STUDIO;
 			$('.studio-img').css('backgroundImage', 'url(img/'+arg.toLowerCase()+'.jpg)');
-			$('.studio-head h2').text(arg);
+			$('.studio-head h3').text(arg);
 			filterData();
 		}
 		// Teacher
@@ -42,12 +42,13 @@
 			var cls = classes[+arg];
 			var img = cls.teacher_image ? 'img/t/'+cls.teacher_image : 'img/divinitree.jpg';
 			$('.studio-img').css('backgroundImage', 'url('+img+')');
-			$('.studio-head h2').text(cls.teacher_name);
+			$('.studio-head h3').text(cls.teacher_name);
 			filterData();
 		}
 		// Place
 		else if (/p\//.test(path)) {
 			mode = ROUTE_PLACE;
+			$('.studio-head h3').text('All Classes');
 			filterData();
 		}
 		// Class
@@ -265,7 +266,7 @@
 	});
 
 	$doc.on('click', '.btn-find', function () {
-		window.location.hash = '#s/Divinitree';
+		window.location.hash = '#p/Santa-Barbara';
 	});
 
 	function ratings() {
