@@ -184,6 +184,7 @@
 
 		$.each(classes, function(i){
 			this.class_id = i;
+
 			// Filter resutls based on hash
 			if (arg) {
 				if (mode === ROUTE_STUDIO && this.studio_name !== arg) {
@@ -193,12 +194,24 @@
 					return;
 				}
 			}
+
 			// Filter results based on nodes
 			for (var k in nodes) {
-				if (nodes.hasOwnProperty(k) && !this['node_'+k]) {
+				if (!this['node_'+k]) {
 					return;
 				}
 			}
+
+			// Filter results based on sliders
+			for (k in attrs) {
+				if (attrs.hasOwnProperty(k)) {
+					var diff = Math.abs((+attrs[k]) - 10*this['attr_'+k]);
+					if (diff > 4) {
+						return;
+					}
+				}
+			}
+
 			results.push(this);
 			num++;
 			if (num >= 35) {
