@@ -35,7 +35,7 @@
 		// Studio
 		else if (/s\//.test(path)) {
 			mode = ROUTE_STUDIO;
-			$('.studio-img').css('backgroundImage', 'url(img/'+arg+'.jpg)');
+			$('.studio-img').css('backgroundImage', 'url(img/'+arg.toLowerCase()+'.jpg)');
 			$('.studio-head h2').text(arg);
 			filterData();
 		}
