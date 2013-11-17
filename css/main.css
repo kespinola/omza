@@ -806,6 +806,15 @@ h1, h2, h3, h4 {
   width: 100%;
   margin-top: 20px; }
 
+.no-results {
+  padding: 10px; }
+
+.reset {
+  cursor: pointer;
+  text-decoration: underline;
+  margin-top: 6px;
+  color: #b4a99c; }
+
 /**
  * Media Queries
  */

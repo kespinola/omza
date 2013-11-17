@@ -933,6 +933,15 @@ $studoWidth: 100px;
     width: 100%;
     margin-top: 20px;
 }
+.no-results {
+    padding: 10px;
+}
+.reset {
+    cursor: pointer;
+    text-decoration: underline;
+    margin-top: 6px;
+    color: $darkBeige;
+}
 
 /**
  * Media Queries

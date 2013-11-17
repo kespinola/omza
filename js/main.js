@@ -85,6 +85,18 @@
 		+'</div>';
 	}
 
+	function reset () {
+		$('.pane1 .node').removeClass('on');
+		var $sliders = $('.pane1 .js-slider');
+		$sliders.find('.slider-i').data('pct',50);
+		$sliders.find('.slider-bg').click();
+		$sliders.removeClass('on');
+		filterData();
+	}
+	$doc.on('click', '.reset', function(){
+		reset();
+	});
+
 	function load_classes (classes) {
 		var classList = $('.class-list').empty();
 		var html = '',image;
@@ -110,6 +122,13 @@
 				return false;
 			}
 		});
+		if (!html) {
+			html = ''
+			+'<div class="no-results">'
+			+	'<h3>No classes matched your preferences</h3>'
+			+	'<h4 class="reset">Reset</h4>'
+			+'</div>';
+		}
 		classList.html(html);
 		classList.find('.class-rating').each(ratings);
 	}
