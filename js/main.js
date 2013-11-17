@@ -224,7 +224,7 @@
 			for (k in attrs) {
 				if (attrs.hasOwnProperty(k)) {
 					var diff = Math.abs((+attrs[k]) - 10*this['attr_'+k]);
-					if (diff > 4) {
+					if (diff > 30) {
 						return;
 					}
 				}
