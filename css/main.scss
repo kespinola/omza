@@ -804,6 +804,48 @@ $studoWidth: 100px;
     color: #f0f0f0;
 }
 
+.nodes {
+    margin-top: 30px;
+}
+.node {
+    width: 75px;
+    height: 75px;
+    background-size: contain;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    float: left;
+    margin-right: 16px;
+    opacity: 0.7;
+    cursor: pointer;
+    height: 110px;
+    &:hover, &.on {
+        opacity: 1;
+    }
+    span {
+        margin-top: 76px;
+        display: block;
+        font-size: 18px;
+    }
+}
+.node-meditation {
+    background-image: url(../img/node-meditation.png);
+}
+.node-chanting {
+    background-image: url(../img/node-chanting.png);
+}
+.node-heated {
+    background-image: url(../img/node-heated.png);
+}
+.node-healing {
+    background-image: url(../img/node-healing.png);
+}
+.node-music {
+    background-image: url(../img/node-music.png);
+}
+.node-stand {
+    background-image: url(../img/node-stand.png);
+}
+
 /**
  * Media Queries
  */
