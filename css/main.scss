@@ -22,8 +22,9 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+$darkBeige: #C2B5A7;
 body {
-    color: #999;
+    color: $darkBeige;
     font-weight: 100;
     letter-spacing: 1px;
 }
@@ -338,7 +339,6 @@ textarea {
  * OHMZA
  ******/
 $beige: #fff6ee;
-$darkBeige: #D6C3AF;
 body {
     background-color: $beige;
 }
@@ -676,6 +676,7 @@ $studoWidth: 100px;
     position: absolute;
     bottom: 12px;
     right: 12px;
+    opacity: 0.8;
 }
 .pane2 {
     text-align: center;

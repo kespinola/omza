@@ -143,6 +143,7 @@
 		+	detail_opt(c.class_day, 'Day')
 		+	detail_opt(c.class_time, 'Time')
 		+	detail_opt(c.class_duration, 'Duration')
+		+	detail_opt(c.studio_name, 'Studio')
 		+	detail_opt(c.room_name, 'Room')
 		+'</div>'
 		+'</div>'

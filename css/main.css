@@ -19,7 +19,7 @@ html {
   line-height: 1.4; }
 
 body {
-  color: #999;
+  color: #c2b5a7;
   font-weight: 100;
   letter-spacing: 1px; }
 
@@ -327,7 +327,7 @@ h1, h2, h3, h4 {
   .subhead h3 {
     padding: 0 6px;
     background-color: #fff6ee;
-    color: #d6c3af; }
+    color: #c2b5a7; }
 
 .mode-1 .subhead {
   display: none; }
@@ -580,7 +580,8 @@ h1, h2, h3, h4 {
   padding: 4px 6px;
   position: absolute;
   bottom: 12px;
-  right: 12px; }
+  right: 12px;
+  opacity: 0.8; }
 
 .pane2 {
   text-align: center; }
@@ -820,11 +821,11 @@ h1, h2, h3, h4 {
     margin-left: 20px; }
   .mode-1 .sub-pane1 h1 {
     font-size: 72px;
-    color: #d6c3af; }
+    color: #c2b5a7; }
   .mode-1 .sub-pane1 h4 {
     font-size: 24px;
     margin: 10px 0;
-    color: #d6c3af; }
+    color: #c2b5a7; }
 
   .sub-pane1 {
     display: inline-block;
