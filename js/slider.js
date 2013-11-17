@@ -29,6 +29,7 @@
 				var fill = e.pageX - left;
 				sliderUpdate(fill*100/width);
 				e.stopPropagation();
+				$this.addClass('on');
 			}
 
 			$bg.on('mousedown', function() {

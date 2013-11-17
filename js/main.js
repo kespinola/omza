@@ -5,6 +5,7 @@
 	$body = $('body'),
 	$win = $(window),
 	classes = window.classes,
+	arg = '',
 	ROUTE_HOME = 1,
 	ROUTE_STUDIO = 2,
 	ROUTE_TEACHER = 3,
@@ -13,15 +14,18 @@
 	mode = ROUTE_HOME;
 
 	function init() {
-		var path = window.location.pathname;
-		if (!path || path === '/') {
-			window.history.pushState({}, 'Divinitree | Omza', '/s/Divinitree');
+		if (!window.location.hash) {
+			window.location.hash = '#s/Divinitree';
 		}
 		switch_mode();
 	}
 
 	function switch_mode() {
-		var path = window.location.pathname;
+		var path = window.location.hash;
+		arg = path.split('/');
+		if (arg.length > 1) {
+			arg = arg[1].replace('-',' ');
+		}
 		if (mode) {
 			$body.removeClass('mode-'+mode);
 		}
@@ -29,37 +33,39 @@
 			mode = ROUTE_HOME;
 		} 
 		// Studio
-		else if (/\/s\//.test(path)) {
+		else if (/s\//.test(path)) {
 			mode = ROUTE_STUDIO;
+			$('.studio-img').css('backgroundImage', 'url(img/'+arg+'.jpg)');
+			$('.studio-head h2').text(arg);
+			filterData();
 		}
 		// Teacher
-		else if (/\/t\//.test(path)) {
+		else if (/t\//.test(path)) {
 			mode = ROUTE_TEACHER;
-
+			filterData();
 		}
 		// Place
-		else if (/\/p\//.test(path)) {
+		else if (/p\//.test(path)) {
 			mode = ROUTE_PLACE;
-
+			filterData();
 		}
 		// Class
-		else if (/\/c\//.test(path)) {
+		else if (/c\//.test(path)) {
 			mode = ROUTE_CLASS;
 		}
 		$body.addClass('mode-'+mode);
 		$('.slider').slider();
-
-		load_classes(classes);
 	}
 
 	function load_classes (classes) {
 		var classList = $('.class-list').empty();
-		var html = '';
+		var html = '',image;
 		$.each(classes, function(i){
+			image = this.teacher_image ? 'img/t/'+this.teacher_image : 'img/divinitree.jpg';
 			html += ''
 			+'<li class="class-li" data-id="'+this.class_id+'">'
 			+	'<div class="class-left">'
-			+		'<div class="class-icon" style="background-image:url('+(this.teacher_img || 'img/divinitree.jpg')+')"></div>'
+			+		'<div class="class-icon" style="background-image:url('+image+')"></div>'
 			+		'<div class="class-sub">'+this.teacher_name+'</div>'
 			+	'</div>'
 			+	'<div class="class-right">'
@@ -84,7 +90,15 @@
 		var results = [];
 		$.each(classes, function(i){
 			this.class_id = i;
-			if (Math.random()*10 < (new Date()).getTime() % 10) {
+			if (arg) {
+				if (mode === ROUTE_STUDIO && this.studio_name !== arg) {
+					return;
+				}
+				if (mode === ROUTE_TEACHER && this.teacher_name !== arg) {
+					return;
+				}
+			}
+			if (!results.length || Math.random()*10 < (new Date()).getTime() % 10) {
 				results.push(this);
 			}
 		});
@@ -107,11 +121,8 @@
 
 		var nice_name = cls.class_name.replace(/[^a-zA-Z0-9\-]+/g,'-');
 
-		window.history.pushState(
-			{}, 
-			cls.class_name + ' | ' + cls.studio + ' | ' + 'Omza', 
-			'/c/'+id+'/'+nice_name
-		);
+		window.location.hash = '#/c/'+id+'/'+nice_name;
+		switch_mode();
 	});
 
 	function ratings() {
@@ -129,6 +140,8 @@
 
 		$panes.css('height', $win.height() - top);
 	}).resize();
+
+	window.onhashchange = switch_mode;
 
 	init();
 
