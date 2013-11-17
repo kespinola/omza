@@ -319,6 +319,12 @@ h1, h2, h3, h4 {
   text-transform: uppercase;
   letter-spacing: 2px; }
 
+.subhead-i {
+  display: inline-block;
+  cursor: pointer; }
+  .subhead-i:hover {
+    opacity: 0.85; }
+
 .studio-img {
   background-size: cover;
   background-color: transparent;
@@ -586,7 +592,8 @@ h1, h2, h3, h4 {
   .detail-opt span {
     display: block;
     font-style: italic;
-    font-size: 13px; }
+    font-size: 13px;
+    line-height: 70%; }
 
 .detail-left {
   width: 100%; }
@@ -732,7 +739,7 @@ h1, h2, h3, h4 {
   .detail-right {
     float: left;
     display: inline-block;
-    padding-top: 0;
+    padding-top: 10px;
     padding-left: 30px; } }
 @media only screen and (min-width: 1200px) {
   .class-list li {

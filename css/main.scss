@@ -401,6 +401,13 @@ $studoWidth: 100px;
     text-transform: uppercase;
     letter-spacing: 2px;
 }
+.subhead-i {
+    display: inline-block;
+    cursor: pointer;
+    &:hover {
+        opacity: 0.85;
+    }
+}
 .studio-img {
     background-size: cover;
     background-color: transparent;
@@ -676,6 +683,7 @@ $studoWidth: 100px;
         display: block;
         font-style: italic;
         font-size: 13px;
+        line-height: 70%;
     }
 }
 .detail-left {
@@ -844,7 +852,7 @@ $panePadding: 20px;
     .detail-right {
         float: left;
         display: inline-block;
-        padding-top: 0;
+        padding-top: 10px;
         padding-left: 30px;
     }
 }

@@ -86,8 +86,8 @@
 		$.each(classes, function(i){
 			image = this.teacher_image ? 'img/t/'+this.teacher_image : 'img/divinitree.jpg';
 			html += ''
-			+'<li class="class-li" data-id="'+this.class_id+'">'
-			+	'<div class="class-left">'
+			+'<li class="class-li hook-class" data-id="'+this.class_id+'">'
+			+	'<div class="class-left hook-teacher" data-id="'+this.class_id+'">'
 			+		'<div class="class-icon" style="background-image:url('+image+')"></div>'
 			+		'<div class="class-sub">'+this.teacher_name+'</div>'
 			+	'</div>'
@@ -169,7 +169,7 @@
 		$body.addClass('mode-2');
 	});
 
-	$doc.on('click', '.class-li', function(){
+	$doc.on('click', '.hook-class', function(){
 		var 
 		$this = $(this),
 		id = +$this.data('id'),
@@ -181,9 +181,9 @@
 		switch_mode();
 	});
 
-	$doc.on('click', '.class-left', function(e){
+	$doc.on('click', '.hook-teacher', function(e){
 		var 
-		$this = $(this).closest('.class-li'),
+		$this = $(this),
 		id = +$this.data('id'),
 		cls = classes[id];
 
@@ -196,6 +196,10 @@
 
 	$doc.on('click', '.btn-detail-reg', function () {
 		$(this).toggleClass('btn-primary btn-success');
+	});
+
+	$doc.on('click', '.subhead-i', function () {
+		window.history.back();
 	});
 
 	function ratings() {
