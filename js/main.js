@@ -166,9 +166,25 @@
 	}
 
 	function filterData () {
-		var results = [];
+		var results = [], attrs = {}, nodes = {}, num = 0;
+
+		// Get slider settings
+		$.each(['strength','spirit','flex','balance','tempo'], function(i,e,j){
+			j = $('.slider-'+e);
+			if (j.hasClass('on')) {
+				attrs[e] = Math.round(+j.find('.slider-i').data('pct'));
+			}
+		});
+
+		// Get node values
+		$.each(['meditation','chanting','heated','healing','stand'], function(i,e,j){
+			j = $('.node-'+e);
+			if (j.hasClass('on')) nodes[e] = 1;
+		});
+
 		$.each(classes, function(i){
 			this.class_id = i;
+			// Filter resutls based on hash
 			if (arg) {
 				if (mode === ROUTE_STUDIO && this.studio_name !== arg) {
 					return;
@@ -177,7 +193,17 @@
 					return;
 				}
 			}
+			// Filter results based on nodes
+			for (var k in nodes) {
+				if (nodes.hasOwnProperty(k) && !this['node_'+k]) {
+					return;
+				}
+			}
 			results.push(this);
+			num++;
+			if (num >= 35) {
+				return false;
+			}
 		});
 		load_classes(results);
 	}
@@ -188,6 +214,11 @@
 
 	$doc.on('click', '.home-search-btn', function(){
 		$body.addClass('mode-2');
+	});
+
+	$doc.on('click', '.node', function(){
+		$(this).toggleClass('on');
+		$doc.trigger('filter');
 	});
 
 	$doc.on('click', '.hook-class', function(){
