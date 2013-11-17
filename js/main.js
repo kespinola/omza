@@ -42,6 +42,10 @@
 		// Teacher
 		else if (/t\//.test(path)) {
 			mode = ROUTE_TEACHER;
+			var cls = classes[+arg];
+			var img = cls.teacher_image ? 'img/t/'+cls.teacher_image : 'img/divinitree.jpg';
+			$('.studio-img').css('backgroundImage', 'url('+img+')');
+			$('.studio-head h2').text(cls.teacher_name);
 			filterData();
 		}
 		// Place
@@ -53,6 +57,7 @@
 		else if (/c\//.test(path)) {
 			mode = ROUTE_CLASS;
 		}
+		$('.class-wrap').scrollTop(0);
 		$body.addClass('mode-'+mode);
 		$('.slider').slider();
 	}
@@ -94,13 +99,11 @@
 				if (mode === ROUTE_STUDIO && this.studio_name !== arg) {
 					return;
 				}
-				if (mode === ROUTE_TEACHER && this.teacher_name !== arg) {
+				if (mode === ROUTE_TEACHER && this.teacher_name !== classes[+arg].teacher_name) {
 					return;
 				}
 			}
-			if (!results.length || Math.random()*10 < (new Date()).getTime() % 10) {
-				results.push(this);
-			}
+			results.push(this);
 		});
 		load_classes(results);
 	}
@@ -121,7 +124,20 @@
 
 		var nice_name = cls.class_name.replace(/[^a-zA-Z0-9\-]+/g,'-');
 
-		window.location.hash = '#/c/'+id+'/'+nice_name;
+		window.location.hash = '#c/'+id+'/'+nice_name;
+		switch_mode();
+	});
+
+	$doc.on('click', '.class-left', function(e){
+		var 
+		$this = $(this).closest('.class-li'),
+		id = +$this.data('id'),
+		cls = classes[id];
+
+		var nice_name = cls.teacher_name.replace(/[^a-zA-Z0-9\-]+/g,'-');
+
+		e.stopPropagation();
+		window.location.hash = '#t/'+id+'/'+nice_name;
 		switch_mode();
 	});
 
