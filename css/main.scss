@@ -382,6 +382,7 @@ $altTheme: #c7d694;
     width: 100%;
 }
 .logo {
+    position: relative;
     display: block;
     color: $altTheme;
     font-size: 24px;
@@ -389,6 +390,10 @@ $altTheme: #c7d694;
     height: 42px;
     text-indent: -9001px;
     background-image: url(../img/omza-logo.png);
+}
+.mode-1 .logo {
+    left: 50%;
+    margin-left: -70px;
 }
 $studoWidth: 100px;
 .subhead {
@@ -400,10 +405,14 @@ $studoWidth: 100px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+    display: block;
     h3 {
         padding: 0 6px;
         background-color: #fff6ee;
     }
+}
+.mode-1 .subhead {
+    display: none;
 }
 .subhead-i {
     display: inline-block;
@@ -507,6 +516,12 @@ $studoWidth: 100px;
 }
 .pane1-head {
     margin-bottom: 16px;
+    display: none;
+}
+.mode-1 {
+    .pane1-head {
+        display: block;
+    }
 }
 .pane1 .btn-large {
     margin-top: 30px;
@@ -515,12 +530,20 @@ $studoWidth: 100px;
     display: inline-block;
     vertical-align: top;
 }
-.sub-pane1{
+.pane1 {
+    padding: 0;
+}
+.sub-pane1 {
+    padding: 20px;
     padding-top: 90px;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: auto;
     width: 100%;
     text-align: center;
+    padding-bottom: 20px;
+    width: 330px;
 }
+
 .sub-pane2{
     padding-top: 100px;
     box-sizing: border-box;
@@ -710,6 +733,44 @@ $studoWidth: 100px;
     width: 24px;
     opacity: 1;
 }
+.mode-1 {
+    .sub-pane1 {
+        width: 100%;
+        padding-top: 30px;
+        h1 {
+            font-size: 48px;
+        }
+    }
+    .sub-pane2 {
+        display: none;
+    }
+    .pane1 .btn-find {
+        display: inline-block;
+        width: auto;
+        min-width: 300px;
+    }
+    .slider {
+        width: 33%;
+        float: left;
+        margin-left: 20px;
+        &:first-child {
+            margin-left: 0;
+        }
+        width: 300px;
+        float: none;
+        display: inline-block;
+    }
+    .node {
+        display: inline-block;
+        float: none;
+    }
+    .sliders {
+        clear: both;
+        overflow: hidden;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+}
 
 /**
  * SLIDERS
@@ -789,6 +850,7 @@ $studoWidth: 100px;
     position: relative;
     overflow: hidden;
     max-width: 100%;
+    width: 0;
     &.full {
         -webkit-border-radius: 3px;
         border-radius: 3px;
@@ -869,7 +931,7 @@ $studoWidth: 100px;
 /**
  * Media Queries
  */
-$leftWidth: 300px;
+$leftWidth: 330px;
 $panePadding: 20px;
  @media only screen and (min-width: 720px) {
     .content {
@@ -887,15 +949,12 @@ $panePadding: 20px;
         padding-left: 20px;
         box-sizing: border-box;
     }
-    .pane1-head {
-        display: none;
-    }
     .pane1 .btn-find {
         display: none;
     }
     .sub-pane2 {
         position: absolute;
-        padding-left: $leftWidth + $panePadding * 2;
+        padding-left: $leftWidth + $panePadding;
         left: 0;
         top: 0;
         width: 100%;
@@ -921,7 +980,7 @@ $panePadding: 20px;
         float: none;
     }
     .detail-icon {
-        display: inline-block;
+    display: inline-block;
     }
     .detail-opt {
         float: none;

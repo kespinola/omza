@@ -301,6 +301,7 @@ h1, h2, h3, h4 {
   width: 100%; }
 
 .logo {
+  position: relative;
   display: block;
   color: #c7d694;
   font-size: 24px;
@@ -308,6 +309,10 @@ h1, h2, h3, h4 {
   height: 42px;
   text-indent: -9001px;
   background-image: url(../img/omza-logo.png); }
+
+.mode-1 .logo {
+  left: 50%;
+  margin-left: -70px; }
 
 .subhead {
   position: absolute;
@@ -317,10 +322,14 @@ h1, h2, h3, h4 {
   height: 0;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  display: block; }
   .subhead h3 {
     padding: 0 6px;
     background-color: #fff6ee; }
+
+.mode-1 .subhead {
+  display: none; }
 
 .subhead-i {
   display: inline-block;
@@ -419,7 +428,11 @@ h1, h2, h3, h4 {
   margin: 0; }
 
 .pane1-head {
-  margin-bottom: 16px; }
+  margin-bottom: 16px;
+  display: none; }
+
+.mode-1 .pane1-head {
+  display: block; }
 
 .pane1 .btn-large {
   margin-top: 30px; }
@@ -428,11 +441,18 @@ h1, h2, h3, h4 {
   display: inline-block;
   vertical-align: top; }
 
+.pane1 {
+  padding: 0; }
+
 .sub-pane1 {
+  padding: 20px;
   padding-top: 90px;
-  overflow: hidden;
+  overflow-x: hidden;
+  overflow-y: auto;
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  padding-bottom: 20px;
+  width: 330px; }
 
 .sub-pane2 {
   padding-top: 100px;
@@ -617,6 +637,35 @@ h1, h2, h3, h4 {
   width: 24px;
   opacity: 1; }
 
+.mode-1 .sub-pane1 {
+  width: 100%;
+  padding-top: 30px; }
+  .mode-1 .sub-pane1 h1 {
+    font-size: 48px; }
+.mode-1 .sub-pane2 {
+  display: none; }
+.mode-1 .pane1 .btn-find {
+  display: inline-block;
+  width: auto;
+  min-width: 300px; }
+.mode-1 .slider {
+  width: 33%;
+  float: left;
+  margin-left: 20px;
+  width: 300px;
+  float: none;
+  display: inline-block; }
+  .mode-1 .slider:first-child {
+    margin-left: 0; }
+.mode-1 .node {
+  display: inline-block;
+  float: none; }
+.mode-1 .sliders {
+  clear: both;
+  overflow: hidden;
+  text-align: center;
+  padding-bottom: 20px; }
+
 /**
  * SLIDERS
  */
@@ -679,7 +728,8 @@ h1, h2, h3, h4 {
   height: 30px;
   position: relative;
   overflow: hidden;
-  max-width: 100%; }
+  max-width: 100%;
+  width: 0; }
   .slider-i.full {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
@@ -763,22 +813,19 @@ h1, h2, h3, h4 {
     max-width: 100%; }
 
   .sub-pane1 {
-    width: 300px;
+    width: 330px;
     position: relative;
     z-index: 6;
     overflow-x: hidden;
     padding-left: 20px;
     box-sizing: border-box; }
 
-  .pane1-head {
-    display: none; }
-
   .pane1 .btn-find {
     display: none; }
 
   .sub-pane2 {
     position: absolute;
-    padding-left: 340px;
+    padding-left: 350px;
     left: 0;
     top: 0;
     width: 100%; }

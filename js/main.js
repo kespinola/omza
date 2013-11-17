@@ -14,9 +14,6 @@
 	mode = ROUTE_HOME;
 
 	function init() {
-		if (!window.location.hash) {
-			window.location.hash = '#s/Divinitree';
-		}
 		switch_mode();
 	}
 
@@ -73,7 +70,7 @@
 		+	'<div class="slider-img"></div>'
 		+	'<div class="slider-bg">'
 		+		'<div class="slider-l">'+label+'</div>'
-		+		'<div class="slider-i">'
+		+		'<div class="slider-i t02">'
 		+			'<div class="slider-l">'+label+'</div>'
 		+		'</div>'
 		+	'</div>'
@@ -265,6 +262,10 @@
 
 	$doc.on('click', '.subhead-i', function () {
 		window.history.back();
+	});
+
+	$doc.on('click', '.btn-find', function () {
+		window.location.hash = '#s/Divinitree';
 	});
 
 	function ratings() {
