@@ -845,6 +845,22 @@ $studoWidth: 100px;
 .node-stand {
     background-image: url(../img/node-stand.png);
 }
+.detail-wrap .node {
+    opacity: 0.4;
+    &:hover, &.on {
+        opacity: 1;
+    }
+}
+.detail-clear {
+    clear: both;
+    overflow: hidden;
+    padding-bottom: 10px;
+}
+.detail-nodes {
+    clear: both;
+    width: 100%;
+    margin-top: 30px;
+}
 
 /**
  * Media Queries

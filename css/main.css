@@ -733,6 +733,21 @@ h1, h2, h3, h4 {
 .node-stand {
   background-image: url(../img/node-stand.png); }
 
+.detail-wrap .node {
+  opacity: 0.4; }
+  .detail-wrap .node:hover, .detail-wrap .node.on {
+    opacity: 1; }
+
+.detail-clear {
+  clear: both;
+  overflow: hidden;
+  padding-bottom: 10px; }
+
+.detail-nodes {
+  clear: both;
+  width: 100%;
+  margin-top: 30px; }
+
 /**
  * Media Queries
  */

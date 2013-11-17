@@ -69,7 +69,7 @@
 
 	function slider_html (val, type, label) {
 		return ''
-		+'<div class="js-slider slider nosel slider-'+type+'">'
+		+'<div class="js-slider on slider nosel slider-'+type+'" data-pct="'+val+'">'
 		+	'<div class="slider-img"></div>'
 		+	'<div class="slider-bg">'
 		+		'<div class="slider-l">'+label+'</div>'
@@ -77,6 +77,13 @@
 		+			'<div class="slider-l">'+label+'</div>'
 		+		'</div>'
 		+	'</div>'
+		+'</div>';
+	}
+
+	function node_html (on, type, label) {
+		return ''
+		+'<div class="node node-'+ type + (on ? ' on' : '') + '">'
+		+'<span>'+label+'</span>'
 		+'</div>';
 	}
 
@@ -122,12 +129,13 @@
 		var html = ''
 		+'<h1 class="detail-title">'+c.class_name+'</h1>'
 		+'<div class="detail-wrap">'
+		+'<div class="detail-clear">'
 		+'<div class="detail-left">'
-		+	slider_html(0.5, 'strength', 'Strength')
-		+	slider_html(0.5, 'spirit', 'Spirtuality')
-		+	slider_html(0.5, 'flex', 'Flexibility')
-		+	slider_html(0.5, 'balance', 'Balance')
-		+	slider_html(0.5, 'tempo', 'Tempo')
+		+	slider_html(c.attr_strength*10, 'strength', 'Strength')
+		+	slider_html(c.attr_spirit*10, 'spirit', 'Spirtuality')
+		+	slider_html(c.attr_flex*10, 'flex', 'Flexibility')
+		+	slider_html(c.attr_balance*10, 'balance', 'Balance')
+		+	slider_html(c.attr_tempo*10, 'tempo', 'Tempo')
 		+'</div>'
 		+'<div class="detail-right">'
 		+	'<div class="detail-teacher">'
@@ -138,6 +146,15 @@
 		+	detail_opt(c.class_time, 'Time')
 		+	detail_opt(c.class_duration, 'Duration')
 		+	detail_opt(c.room_name, 'Room')
+		+'</div>'
+		+'</div>'
+		+'<div class="detail-nodes nodes">'
+		+	node_html(c.node_meditation, 'meditation', 'Meditation')
+		+	node_html(c.node_chanting, 'chanting', 'Chanting')
+		+	node_html(c.node_heated, 'heated', 'Heated')
+		+	node_html(c.node_healing, 'healing', 'Healing')
+		+	node_html(c.node_music, 'music', 'Music')
+		+	node_html(c.node_stand, 'stand', 'Inversions')
 		+'</div>'
 		+'<div class="detail-reg">'
 		+	'<button type="button" class="btn btn-primary btn-detail-reg btn-large t02">'
@@ -229,5 +246,15 @@
 	setTimeout(function(){
 		$('.content-inner').addClass('t10');
 	},200);
+
+	/*$.each(window.classes, function(){
+		var self = this;
+		$.each(['strength','spirit','flex','balance','tempo'], function(i,e){
+			self['attr_'+e] = Math.floor((Math.random()*11));
+		});
+		$.each(['meditation','chanting','heated','healing','stand'], function(i,e){
+			self['node_'+e] = Math.floor((Math.random()*2));
+		});
+	});*/
 
 })(window, jQuery);
