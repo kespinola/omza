@@ -464,7 +464,8 @@ h1, h2, h3, h4 {
 
 .class-wrap {
   overflow-y: auto;
-  max-height: 100%; }
+  max-height: 100%;
+  padding-right: 20px; }
 
 .class-list {
   margin: 0;
@@ -763,15 +764,17 @@ h1, h2, h3, h4 {
   background-repeat: no-repeat;
   float: left;
   margin-right: 16px;
-  opacity: 0.7;
   cursor: pointer;
   height: 110px; }
-  .node:hover, .node.on {
-    opacity: 1; }
   .node span {
     margin-top: 76px;
     display: block;
     font-size: 18px; }
+
+.pane1 .node {
+  opacity: 0.7; }
+  .pane1 .node:hover, .pane1 .node.on {
+    opacity: 1; }
 
 .node-meditation {
   background-image: url(../img/node-meditation.png); }
@@ -793,7 +796,7 @@ h1, h2, h3, h4 {
 
 .detail-wrap .node {
   opacity: 0.4; }
-  .detail-wrap .node:hover, .detail-wrap .node.on {
+  .detail-wrap .node.on {
     opacity: 1; }
 
 .detail-clear {

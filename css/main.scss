@@ -557,6 +557,7 @@ $studoWidth: 100px;
 .class-wrap {
     overflow-y: auto;
     max-height: 100%;
+    padding-right: 20px;
 }
 .class-list {
     margin: 0;
@@ -887,16 +888,18 @@ $studoWidth: 100px;
     background-repeat: no-repeat;
     float: left;
     margin-right: 16px;
-    opacity: 0.7;
     cursor: pointer;
     height: 110px;
-    &:hover, &.on {
-        opacity: 1;
-    }
     span {
         margin-top: 76px;
         display: block;
         font-size: 18px;
+    }
+}
+.pane1 .node {
+    opacity: 0.7;
+    &:hover, &.on {
+        opacity: 1;
     }
 }
 .node-meditation {
@@ -919,7 +922,7 @@ $studoWidth: 100px;
 }
 .detail-wrap .node {
     opacity: 0.4;
-    &:hover, &.on {
+    &.on {
         opacity: 1;
     }
 }
