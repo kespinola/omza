@@ -221,6 +221,7 @@
 	}
 
 	$doc.on('filter', window.debounce(function(){
+		$body.removeClass('no-fil');
 		filterData();
 	}, 200));
 

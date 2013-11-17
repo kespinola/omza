@@ -19,7 +19,7 @@ html {
   line-height: 1.4; }
 
 body {
-  color: #c2b5a7;
+  color: #b4a99c;
   font-weight: 100;
   letter-spacing: 1px; }
 
@@ -327,7 +327,7 @@ h1, h2, h3, h4 {
   .subhead h3 {
     padding: 0 6px;
     background-color: #fff6ee;
-    color: #c2b5a7; }
+    color: #b4a99c; }
 
 .mode-1 .subhead {
   display: none; }
@@ -746,7 +746,7 @@ h1, h2, h3, h4 {
   position: absolute;
   top: 0;
   left: 12px;
-  font-size: 16px;
+  font-size: 18px;
   letter-spacing: 1px; }
 
 .slider-i .slider-l {
@@ -817,15 +817,18 @@ h1, h2, h3, h4 {
     width: 100%;
     max-width: 100%; }
 
+  .no-fil.mode-1 .slider-bg, .no-fil.mode-1 .node {
+    opacity: 1; }
+
   .mode-1 .slider {
     margin-left: 20px; }
   .mode-1 .sub-pane1 h1 {
     font-size: 72px;
-    color: #c2b5a7; }
+    color: #b4a99c; }
   .mode-1 .sub-pane1 h4 {
     font-size: 24px;
     margin: 10px 0;
-    color: #c2b5a7; }
+    color: #b4a99c; }
 
   .sub-pane1 {
     display: inline-block;
