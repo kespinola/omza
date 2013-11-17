@@ -641,6 +641,7 @@ h1, h2, h3, h4 {
   opacity: 1; }
 
 .mode-1 .sub-pane1 {
+  display: block;
   width: 100%;
   padding-top: 30px; }
   .mode-1 .sub-pane1 h1 {
