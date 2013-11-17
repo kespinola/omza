@@ -445,6 +445,7 @@ h1, h2, h3, h4 {
   padding: 0; }
 
 .sub-pane1 {
+  display: none;
   padding: 20px;
   padding-top: 90px;
   overflow-x: hidden;
@@ -456,7 +457,9 @@ h1, h2, h3, h4 {
 
 .sub-pane2 {
   padding-top: 100px;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  width: 100%;
+  padding-left: 16px; }
 
 .class-wrap {
   overflow-y: auto;
@@ -651,8 +654,7 @@ h1, h2, h3, h4 {
 .mode-1 .slider {
   width: 33%;
   float: left;
-  margin-left: 20px;
-  width: 300px;
+  width: 400px;
   float: none;
   display: inline-block; }
   .mode-1 .slider:first-child {
@@ -729,7 +731,7 @@ h1, h2, h3, h4 {
   position: relative;
   overflow: hidden;
   max-width: 100%;
-  width: 0; }
+  width: 50%; }
   .slider-i.full {
     -webkit-border-radius: 3px;
     border-radius: 3px; }
@@ -812,7 +814,11 @@ h1, h2, h3, h4 {
     width: 100%;
     max-width: 100%; }
 
+  .mode-1 .slider {
+    margin-left: 20px; }
+
   .sub-pane1 {
+    display: inline-block;
     width: 330px;
     position: relative;
     z-index: 6;
@@ -827,8 +833,7 @@ h1, h2, h3, h4 {
     position: absolute;
     padding-left: 350px;
     left: 0;
-    top: 0;
-    width: 100%; }
+    top: 0; }
 
   .detail {
     width: auto; }

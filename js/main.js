@@ -149,7 +149,7 @@
 		+	node_html(c.node_meditation, 'meditation', 'Meditation')
 		+	node_html(c.node_chanting, 'chanting', 'Chanting')
 		+	node_html(c.node_heated, 'heated', 'Heated')
-		+	node_html(c.node_healing, 'healing', 'Healing')
+		+	node_html(c.node_healing, 'healing', 'Injuries')
 		+	node_html(c.node_music, 'music', 'Music')
 		+	node_html(c.node_stand, 'stand', 'Inversions')
 		+'</div>'

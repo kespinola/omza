@@ -534,6 +534,7 @@ $studoWidth: 100px;
     padding: 0;
 }
 .sub-pane1 {
+    display: none;
     padding: 20px;
     padding-top: 90px;
     overflow-x: hidden;
@@ -547,6 +548,8 @@ $studoWidth: 100px;
 .sub-pane2{
     padding-top: 100px;
     box-sizing: border-box;
+    width: 100%;
+    padding-left: 16px;
 }
 
 .class-wrap {
@@ -752,11 +755,10 @@ $studoWidth: 100px;
     .slider {
         width: 33%;
         float: left;
-        margin-left: 20px;
         &:first-child {
             margin-left: 0;
         }
-        width: 300px;
+        width: 400px;
         float: none;
         display: inline-block;
     }
@@ -850,7 +852,7 @@ $studoWidth: 100px;
     position: relative;
     overflow: hidden;
     max-width: 100%;
-    width: 0;
+    width: 50%;
     &.full {
         -webkit-border-radius: 3px;
         border-radius: 3px;
@@ -941,7 +943,13 @@ $panePadding: 20px;
         width: 100%;
         max-width: 100%;
     }
+    .mode-1 {
+        .slider {
+            margin-left: 20px;
+        }
+    }
     .sub-pane1 {
+        display: inline-block;
         width: $leftWidth;
         position: relative;
         z-index: 6;
@@ -957,7 +965,6 @@ $panePadding: 20px;
         padding-left: $leftWidth + $panePadding;
         left: 0;
         top: 0;
-        width: 100%;
     }
     .detail {
         width: auto;
