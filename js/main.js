@@ -110,6 +110,9 @@
 	}
 
 	function detail_opt(val, sub) {
+		if (sub === 'Duration') {
+			val = val + 'min';
+		}
 		return val ? '<div class="detail-opt">' + val + '<span>' + sub + '</span></div>' : '';
 	}
 
@@ -133,6 +136,7 @@
 		+	'</div>'
 		+	detail_opt(c.class_day, 'Day')
 		+	detail_opt(c.class_time, 'Time')
+		+	detail_opt(c.class_duration, 'Duration')
 		+	detail_opt(c.room_name, 'Room')
 		+'</div>'
 		+'<div class="detail-reg">'

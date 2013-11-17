@@ -712,7 +712,7 @@ $studoWidth: 100px;
  */
 .slider {
     position: relative;
-    height: 50px;
+    height: 65px;
     padding-top: 24px;
 }
 .slider-img {
@@ -758,13 +758,10 @@ $studoWidth: 100px;
 }
 .slider-tempo {
     .slider-i {
-        background-color: #f7e086;
+        background-color: #acbc74;
     }
     .slider-img {
         background-image: url(../img/attr-tempo.png);
-    }
-    .slider-i .slider-l {
-        color: darken(#f7e086, 35%);
     }
 }
 .slider-bg {

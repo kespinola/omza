@@ -619,7 +619,7 @@ h1, h2, h3, h4 {
  */
 .slider {
   position: relative;
-  height: 50px;
+  height: 65px;
   padding-top: 24px; }
 
 .slider-img {
@@ -652,11 +652,9 @@ h1, h2, h3, h4 {
   background-image: url(../img/attr-balance.png); }
 
 .slider-tempo .slider-i {
-  background-color: #f7e086; }
+  background-color: #acbc74; }
 .slider-tempo .slider-img {
   background-image: url(../img/attr-tempo.png); }
-.slider-tempo .slider-i .slider-l {
-  color: #be9a0d; }
 
 .slider-bg {
   background-color: #F3E7DC;
