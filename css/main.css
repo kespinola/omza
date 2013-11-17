@@ -630,7 +630,7 @@ h1, h2, h3, h4 {
   padding-top: 20px; }
 
 .detail-reg .btn {
-  margin-top: 20px; }
+  margin-top: 10px; }
   .detail-reg .btn .glyphicon {
     width: 0;
     opacity: 0;
@@ -804,7 +804,7 @@ h1, h2, h3, h4 {
 .detail-nodes {
   clear: both;
   width: 100%;
-  margin-top: 30px; }
+  margin-top: 20px; }
 
 /**
  * Media Queries
