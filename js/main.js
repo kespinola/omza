@@ -136,7 +136,9 @@
 		+	detail_opt(c.room_name, 'Room')
 		+'</div>'
 		+'<div class="detail-reg">'
-		+	'<button type="button" class="btn btn-primary btn-detail-reg btn-large">Register for class</button>'
+		+	'<button type="button" class="btn btn-primary btn-detail-reg btn-large t02">'
+		+		'<span class="glyphicon glyphicon-ok t02"></span>Register for class'
+		+	'</button>'
 		+'</div>'
 		+'</div>';
 		$detail.html(html);
@@ -190,6 +192,10 @@
 		e.stopPropagation();
 		window.location.hash = '#t/'+id+'/'+nice_name;
 		switch_mode();
+	});
+
+	$doc.on('click', '.btn-detail-reg', function () {
+		$(this).toggleClass('btn-primary btn-success');
 	});
 
 	function ratings() {

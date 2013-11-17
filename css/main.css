@@ -596,6 +596,16 @@ h1, h2, h3, h4 {
 
 .detail-reg .btn {
   margin-top: 20px; }
+  .detail-reg .btn .glyphicon {
+    width: 0;
+    opacity: 0;
+    vertical-align: top;
+    padding-top: 3px; }
+
+.detail-reg .btn-success .glyphicon {
+  margin-right: 12px;
+  width: 24px;
+  opacity: 1; }
 
 /**
  * SLIDERS
