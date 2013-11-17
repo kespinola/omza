@@ -377,10 +377,12 @@ $altTheme: #c7d694;
     height: 60px;
     padding: 8px 16px 12px 8px;
     position: fixed;
+    z-index: 2;
     top: 0;
     width: 100%;
 }
 .logo {
+    display: block;
     color: $altTheme;
     font-size: 24px;
     width: 142px;
@@ -394,6 +396,7 @@ $studoWidth: 100px;
     top: 10px;
     width: 100%;
     left: 0;
+    height: 0;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -482,8 +485,8 @@ $studoWidth: 100px;
     top: 0;
     left: 0;
 }
-.header h1, .header h2 {
-    margin: 0;
+.header h3 {
+    margin: 4px 0 0;
 }
 .pane0 {
     padding-top: 0;
@@ -504,6 +507,8 @@ $studoWidth: 100px;
 .sub-pane1{
     padding-top: 90px;
     overflow: hidden;
+    width: 100%;
+    text-align: center;
 }
 .sub-pane2{
     padding-top: 100px;
@@ -633,6 +638,55 @@ $studoWidth: 100px;
     bottom: 12px;
     right: 12px;
 }
+.pane2 {
+    text-align: center;
+}
+.detail {
+    display: inline-block;
+    margin: 100px 0 20px;
+    width: 100%;
+}
+.detail-wrap {
+    margin-top: 16px;
+}
+.detail-icon {
+    width: 40px;
+    height: 40px;
+    margin-top: 14px;
+    border-radius: 20px;
+    float: left;
+    display: inline-block;
+    background-size: cover;
+    margin-left: 10px;
+}
+.detail-teacher {
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+}
+.detail-teacher .detail-opt {
+    float: left;
+}
+.detail-opt {
+    text-align: left;
+    margin-bottom: 10px;
+    font-size: 24px;
+    padding-top: 6px;
+    span {
+        display: block;
+        font-style: italic;
+        font-size: 13px;
+    }
+}
+.detail-left {
+    width: 100%;
+}
+.detail-right {
+    padding-top: 20px;
+}
+.detail-reg .btn {
+    margin-top: 20px;
+}
 
 /**
  * SLIDERS
@@ -695,15 +749,17 @@ $studoWidth: 100px;
     }
 }
 .slider-bg {
-    opacity: 0.7;
     background-color: #F3E7DC;
     border-radius: 3px;
     height: 30px;
     margin-left: 85px;
     position: relative;
+}
+.js-slider .slider-bg {
+    opacity: 0.7;
     cursor: pointer;
 }
-.slider.on .slider-bg {
+.js-slider.on .slider-bg {
     opacity: 1;
 }
 .slider-i {
@@ -765,6 +821,20 @@ $panePadding: 20px;
         left: 0;
         top: 0;
         width: 100%;
+    }
+    .detail {
+        width: auto;
+    }
+    .detail-left {
+        float: left;
+        display: inline-block;
+        width: 300px;
+    }
+    .detail-right {
+        float: left;
+        display: inline-block;
+        padding-top: 0;
+        padding-left: 30px;
     }
 }
 

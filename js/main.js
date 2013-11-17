@@ -56,10 +56,28 @@
 		// Class
 		else if (/c\//.test(path)) {
 			mode = ROUTE_CLASS;
+			var c = classes[+arg];
+			load_class(c);
+		}
+		else {
+			filterData();
 		}
 		$('.class-wrap').scrollTop(0);
 		$body.addClass('mode-'+mode);
-		$('.slider').slider();
+		$('.js-slider').slider();
+	}
+
+	function slider_html (val, type, label) {
+		return ''
+		+'<div class="js-slider slider nosel slider-'+type+'">'
+		+	'<div class="slider-img"></div>'
+		+	'<div class="slider-bg">'
+		+		'<div class="slider-l">'+label+'</div>'
+		+		'<div class="slider-i">'
+		+			'<div class="slider-l">'+label+'</div>'
+		+		'</div>'
+		+	'</div>'
+		+'</div>';
 	}
 
 	function load_classes (classes) {
@@ -89,6 +107,39 @@
 		});
 		classList.html(html);
 		classList.find('.class-rating').each(ratings);
+	}
+
+	function detail_opt(val, sub) {
+		return val ? '<div class="detail-opt">' + val + '<span>' + sub + '</span></div>' : '';
+	}
+
+	function load_class(c) {
+		var $detail = $('.detail').empty();
+		var image = this.teacher_image ? 'img/t/'+this.teacher_image : 'img/divinitree.jpg';
+		var html = ''
+		+'<h1 class="detail-title">'+c.class_name+'</h1>'
+		+'<div class="detail-wrap">'
+		+'<div class="detail-left">'
+		+	slider_html(0.5, 'strength', 'Strength')
+		+	slider_html(0.5, 'spirit', 'Spirtuality')
+		+	slider_html(0.5, 'flex', 'Flexibility')
+		+	slider_html(0.5, 'balance', 'Balance')
+		+	slider_html(0.5, 'tempo', 'Tempo')
+		+'</div>'
+		+'<div class="detail-right">'
+		+	'<div class="detail-teacher">'
+		+		detail_opt(c.teacher_name, 'Teacher')
+		+		'<div class="detail-icon" style="background-image:url('+image+')"></div>'
+		+	'</div>'
+		+	detail_opt(c.class_day, 'Day')
+		+	detail_opt(c.class_time, 'Time')
+		+	detail_opt(c.room_name, 'Room')
+		+'</div>'
+		+'<div class="detail-reg">'
+		+	'<button type="button" class="btn btn-primary btn-detail-reg btn-large">Register for class</button>'
+		+'</div>'
+		+'</div>';
+		$detail.html(html);
 	}
 
 	function filterData () {

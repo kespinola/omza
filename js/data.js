@@ -2,7 +2,6 @@ window.classes = [
   {
     "class_id":1,
     "class_name":"Playing Your Edge 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -15,7 +14,6 @@ window.classes = [
   {
     "class_id":2,
     "class_name":"Vinyasa Flow Levelæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -28,7 +26,6 @@ window.classes = [
   {
     "class_id":3,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -41,7 +38,6 @@ window.classes = [
   {
     "class_id":4,
     "class_name":"Vinyasa Flow",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -54,7 +50,6 @@ window.classes = [
   {
     "class_id":5,
     "class_name":"Girl Rising Movie Night",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -67,7 +62,6 @@ window.classes = [
   {
     "class_id":6,
     "class_name":"Deep Bodywork Massage Training",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -80,7 +74,6 @@ window.classes = [
   {
     "class_id":7,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -93,7 +86,6 @@ window.classes = [
   {
     "class_id":8,
     "class_name":"Dynamic Flow 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -106,7 +98,6 @@ window.classes = [
   {
     "class_id":9,
     "class_name":"Mindful Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -119,7 +110,6 @@ window.classes = [
   {
     "class_id":10,
     "class_name":"Playing Your Edge",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -132,7 +122,6 @@ window.classes = [
   {
     "class_id":11,
     "class_name":"Prenatal Flow",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -145,7 +134,6 @@ window.classes = [
   {
     "class_id":12,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -158,7 +146,6 @@ window.classes = [
   {
     "class_id":13,
     "class_name":"Vinyasa Flow Level 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -171,7 +158,6 @@ window.classes = [
   {
     "class_id":14,
     "class_name":"Deep Bodywork Massage Training",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -184,7 +170,6 @@ window.classes = [
   {
     "class_id":15,
     "class_name":"Therapeutic Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -197,7 +182,6 @@ window.classes = [
   {
     "class_id":16,
     "class_name":"Awakening Yoga Level 1/2",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -210,7 +194,6 @@ window.classes = [
   {
     "class_id":17,
     "class_name":"Yoga Basics",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -223,7 +206,6 @@ window.classes = [
   {
     "class_id":18,
     "class_name":"Integrating Pilatesæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -236,7 +218,6 @@ window.classes = [
   {
     "class_id":19,
     "class_name":"Lunch Flow 2/3 ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -249,7 +230,6 @@ window.classes = [
   {
     "class_id":20,
     "class_name":"Nia",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -262,7 +242,6 @@ window.classes = [
   {
     "class_id":21,
     "class_name":"Yoga Flow All Levels",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -275,7 +254,6 @@ window.classes = [
   {
     "class_id":22,
     "class_name":"Dynamic Flow 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -288,7 +266,6 @@ window.classes = [
   {
     "class_id":23,
     "class_name":"Yin Yoga and Meditation",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -301,7 +278,6 @@ window.classes = [
   {
     "class_id":24,
     "class_name":"Active Beginners",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -314,7 +290,6 @@ window.classes = [
   {
     "class_id":25,
     "class_name":"Resistance Stretching",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -327,7 +302,6 @@ window.classes = [
   {
     "class_id":26,
     "class_name":"Vinyasa Flow ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -340,7 +314,6 @@ window.classes = [
   {
     "class_id":27,
     "class_name":"Morning Flow",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -353,7 +326,6 @@ window.classes = [
   {
     "class_id":28,
     "class_name":"Foundationsæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -366,7 +338,6 @@ window.classes = [
   {
     "class_id":29,
     "class_name":"Tai Chi",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Wu Shu Studio",
@@ -379,7 +350,6 @@ window.classes = [
   {
     "class_id":30,
     "class_name":"Sweet and Steady",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -392,7 +362,6 @@ window.classes = [
   {
     "class_id":31,
     "class_name":"Yogalatesæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -405,7 +374,6 @@ window.classes = [
   {
     "class_id":32,
     "class_name":"Insight Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -418,7 +386,6 @@ window.classes = [
   {
     "class_id":33,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -431,7 +398,6 @@ window.classes = [
   {
     "class_id":34,
     "class_name":"Power Lunch 2/3 ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -444,7 +410,6 @@ window.classes = [
   {
     "class_id":35,
     "class_name":"Qi Flow",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -457,7 +422,6 @@ window.classes = [
   {
     "class_id":36,
     "class_name":"Vinyasa Flow Level 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -470,7 +434,6 @@ window.classes = [
   {
     "class_id":37,
     "class_name":"Niaæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -483,7 +446,6 @@ window.classes = [
   {
     "class_id":38,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -496,7 +458,6 @@ window.classes = [
   {
     "class_id":39,
     "class_name":"Kundalini Flow & Glow ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -509,7 +470,6 @@ window.classes = [
   {
     "class_id":40,
     "class_name":"Gentle/Restorative Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -522,7 +482,6 @@ window.classes = [
   {
     "class_id":41,
     "class_name":"Therapeutic Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -535,7 +494,6 @@ window.classes = [
   {
     "class_id":42,
     "class_name":"Awakening Yoga Level 1/2",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -548,7 +506,6 @@ window.classes = [
   {
     "class_id":43,
     "class_name":"Yoga Flow",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -561,7 +518,6 @@ window.classes = [
   {
     "class_id":44,
     "class_name":"Integrating Pilates",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -574,7 +530,6 @@ window.classes = [
   {
     "class_id":45,
     "class_name":"Lunch Flow 2/3 ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -587,7 +542,6 @@ window.classes = [
   {
     "class_id":46,
     "class_name":"Nia",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -600,7 +554,6 @@ window.classes = [
   {
     "class_id":47,
     "class_name":"Moving Mat Pilates",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -613,7 +566,6 @@ window.classes = [
   {
     "class_id":48,
     "class_name":"Yoga Flow All Level",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -626,7 +578,6 @@ window.classes = [
   {
     "class_id":49,
     "class_name":"Dynamic Flow 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -639,7 +590,6 @@ window.classes = [
   {
     "class_id":50,
     "class_name":"Yin Yoga and Meditationæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -652,7 +602,6 @@ window.classes = [
   {
     "class_id":51,
     "class_name":"Active Beginners",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -665,7 +614,6 @@ window.classes = [
   {
     "class_id":52,
     "class_name":"Resistance Stretching",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -678,7 +626,6 @@ window.classes = [
   {
     "class_id":53,
     "class_name":"All Yoga Considered",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -691,7 +638,6 @@ window.classes = [
   {
     "class_id":54,
     "class_name":"Morning Flow",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -704,7 +650,6 @@ window.classes = [
   {
     "class_id":55,
     "class_name":"Foundations",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -717,7 +662,6 @@ window.classes = [
   {
     "class_id":56,
     "class_name":"Tai Chi",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Wu Shu Studio",
@@ -730,7 +674,6 @@ window.classes = [
   {
     "class_id":57,
     "class_name":"Sweet and Steadyæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -743,7 +686,6 @@ window.classes = [
   {
     "class_id":58,
     "class_name":"Yogalatesæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -756,7 +698,6 @@ window.classes = [
   {
     "class_id":59,
     "class_name":"Insight Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -769,7 +710,6 @@ window.classes = [
   {
     "class_id":60,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -782,7 +722,6 @@ window.classes = [
   {
     "class_id":61,
     "class_name":"Power Lunch 2/3",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -795,7 +734,6 @@ window.classes = [
   {
     "class_id":62,
     "class_name":"Qi Flowæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -808,7 +746,6 @@ window.classes = [
   {
     "class_id":63,
     "class_name":"Karma Kids",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -821,7 +758,6 @@ window.classes = [
   {
     "class_id":64,
     "class_name":"Vinyasa Flow Level",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -834,7 +770,6 @@ window.classes = [
   {
     "class_id":65,
     "class_name":"Nia",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -847,7 +782,6 @@ window.classes = [
   {
     "class_id":66,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -860,7 +794,6 @@ window.classes = [
   {
     "class_id":67,
     "class_name":"Total Alignment Resetæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -873,7 +806,6 @@ window.classes = [
   {
     "class_id":68,
     "class_name":"Gentle/Restorative Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -886,7 +818,6 @@ window.classes = [
   {
     "class_id":69,
     "class_name":"Yoga for Back Care",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -899,7 +830,6 @@ window.classes = [
   {
     "class_id":70,
     "class_name":"Awakening Yoga",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -912,7 +842,6 @@ window.classes = [
   {
     "class_id":71,
     "class_name":"Yoga Basics",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -925,7 +854,6 @@ window.classes = [
   {
     "class_id":72,
     "class_name":"Integrating Pilates",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -938,7 +866,6 @@ window.classes = [
   {
     "class_id":73,
     "class_name":"Lunch Flow 2/3æ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -951,7 +878,6 @@ window.classes = [
   {
     "class_id":74,
     "class_name":"Nia",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -964,7 +890,6 @@ window.classes = [
   {
     "class_id":75,
     "class_name":"Yoga Flow All Levelsæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -977,7 +902,6 @@ window.classes = [
   {
     "class_id":76,
     "class_name":"Vinyasa Flow Levelæ",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 1",
@@ -990,7 +914,6 @@ window.classes = [
   {
     "class_id":77,
     "class_name":"Qi Gong, Meditation, Restorative",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -1003,7 +926,6 @@ window.classes = [
   {
     "class_id":78,
     "class_name":"Yoga Soup",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"Studio 2",
@@ -1016,7 +938,6 @@ window.classes = [
   {
     "class_id":79,
     "class_name":"Deep Bodywork Massage Training",
-    "studio_id_old":1,
     "studio_name":"Yoga Soup",
     "studio_img":"",
     "room_name":"",
@@ -1029,7 +950,6 @@ window.classes = [
   {
     "class_id":80,
     "class_name":"Yoga L 1-2",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1042,7 +962,6 @@ window.classes = [
   {
     "class_id":81,
     "class_name":"Flow to Strength Level 2/3",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1055,7 +974,6 @@ window.classes = [
   {
     "class_id":82,
     "class_name":"Foundation Training",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1068,7 +986,6 @@ window.classes = [
   {
     "class_id":83,
     "class_name":"Q the Yoga",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1081,7 +998,6 @@ window.classes = [
   {
     "class_id":84,
     "class_name":"Grace and Gravity",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1094,7 +1010,6 @@ window.classes = [
   {
     "class_id":85,
     "class_name":"Yoga 4 Core Strength",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1107,7 +1022,6 @@ window.classes = [
   {
     "class_id":86,
     "class_name":"Breathwork-Rebirthing",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1120,7 +1034,6 @@ window.classes = [
   {
     "class_id":87,
     "class_name":"Yoga, QiGong and Restoreæ",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1133,7 +1046,6 @@ window.classes = [
   {
     "class_id":88,
     "class_name":"Gentle Yoga",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1146,7 +1058,6 @@ window.classes = [
   {
     "class_id":89,
     "class_name":"Core Flow",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1159,7 +1070,6 @@ window.classes = [
   {
     "class_id":90,
     "class_name":"A Yoga Adventureæ",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1172,7 +1082,6 @@ window.classes = [
   {
     "class_id":91,
     "class_name":"Yoga Basics",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1185,7 +1094,6 @@ window.classes = [
   {
     "class_id":92,
     "class_name":"Grace and Gravity",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1198,7 +1106,6 @@ window.classes = [
   {
     "class_id":93,
     "class_name":"Yoga Lunch",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1211,7 +1118,6 @@ window.classes = [
   {
     "class_id":94,
     "class_name":"Evolving Yoga Flow",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1224,7 +1130,6 @@ window.classes = [
   {
     "class_id":95,
     "class_name":"Candle-lit Restorative Yoga",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1237,7 +1142,6 @@ window.classes = [
   {
     "class_id":96,
     "class_name":"Gentle Yoga",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1250,7 +1154,6 @@ window.classes = [
   {
     "class_id":97,
     "class_name":"Core Flow",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1263,7 +1166,6 @@ window.classes = [
   {
     "class_id":98,
     "class_name":"A Yoga Adventure",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1276,7 +1178,6 @@ window.classes = [
   {
     "class_id":99,
     "class_name":"Yoga Basics",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1289,7 +1190,6 @@ window.classes = [
   {
     "class_id":100,
     "class_name":"Grace and Gravity",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1302,7 +1202,6 @@ window.classes = [
   {
     "class_id":101,
     "class_name":"Yoga Lunchæ",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1315,7 +1214,6 @@ window.classes = [
   {
     "class_id":102,
     "class_name":"Flow to Strength",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1328,7 +1226,6 @@ window.classes = [
   {
     "class_id":103,
     "class_name":"Candle-lit Restorative Yoga",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1341,7 +1238,6 @@ window.classes = [
   {
     "class_id":104,
     "class_name":"Gentle Yoga",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1354,7 +1250,6 @@ window.classes = [
   {
     "class_id":105,
     "class_name":"Yoga 4 Core Strength",
-    "studio_id_old":2,
     "studio_name":"SourceæYogaæStudio",
     "studio_img":"",
     "room_name":"",
@@ -1367,7 +1262,6 @@ window.classes = [
   {
     "class_id":106,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1380,7 +1274,6 @@ window.classes = [
   {
     "class_id":107,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1393,7 +1286,6 @@ window.classes = [
   {
     "class_id":108,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1406,7 +1298,6 @@ window.classes = [
   {
     "class_id":109,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1419,7 +1310,6 @@ window.classes = [
   {
     "class_id":110,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1432,7 +1322,6 @@ window.classes = [
   {
     "class_id":111,
     "class_name":"CorePower 1",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1445,7 +1334,6 @@ window.classes = [
   {
     "class_id":112,
     "class_name":"Hot Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1458,7 +1346,6 @@ window.classes = [
   {
     "class_id":113,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1471,7 +1358,6 @@ window.classes = [
   {
     "class_id":114,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1484,7 +1370,6 @@ window.classes = [
   {
     "class_id":115,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1497,7 +1382,6 @@ window.classes = [
   {
     "class_id":116,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1510,7 +1394,6 @@ window.classes = [
   {
     "class_id":117,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1523,7 +1406,6 @@ window.classes = [
   {
     "class_id":118,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1536,7 +1418,6 @@ window.classes = [
   {
     "class_id":119,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1549,7 +1430,6 @@ window.classes = [
   {
     "class_id":120,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1562,7 +1442,6 @@ window.classes = [
   {
     "class_id":121,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1575,7 +1454,6 @@ window.classes = [
   {
     "class_id":122,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1588,7 +1466,6 @@ window.classes = [
   {
     "class_id":123,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1601,7 +1478,6 @@ window.classes = [
   {
     "class_id":124,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1614,7 +1490,6 @@ window.classes = [
   {
     "class_id":125,
     "class_name":"CoreRestore-Restorative Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1627,7 +1502,6 @@ window.classes = [
   {
     "class_id":126,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1640,7 +1514,6 @@ window.classes = [
   {
     "class_id":127,
     "class_name":"CorePower 1",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1653,7 +1526,6 @@ window.classes = [
   {
     "class_id":128,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1666,7 +1538,6 @@ window.classes = [
   {
     "class_id":129,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1679,7 +1550,6 @@ window.classes = [
   {
     "class_id":130,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1692,7 +1562,6 @@ window.classes = [
   {
     "class_id":131,
     "class_name":"CorePower Yoga 2 Candlelight Flow",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1705,7 +1574,6 @@ window.classes = [
   {
     "class_id":132,
     "class_name":"CoreRestore-Restorative Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1718,7 +1586,6 @@ window.classes = [
   {
     "class_id":133,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1731,7 +1598,6 @@ window.classes = [
   {
     "class_id":134,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1744,7 +1610,6 @@ window.classes = [
   {
     "class_id":135,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1757,7 +1622,6 @@ window.classes = [
   {
     "class_id":136,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1770,7 +1634,6 @@ window.classes = [
   {
     "class_id":137,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1783,7 +1646,6 @@ window.classes = [
   {
     "class_id":138,
     "class_name":"CorePower 1",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1796,7 +1658,6 @@ window.classes = [
   {
     "class_id":139,
     "class_name":"Hot Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1809,7 +1670,6 @@ window.classes = [
   {
     "class_id":140,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1822,7 +1682,6 @@ window.classes = [
   {
     "class_id":141,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1835,7 +1694,6 @@ window.classes = [
   {
     "class_id":142,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1848,7 +1706,6 @@ window.classes = [
   {
     "class_id":143,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1861,7 +1718,6 @@ window.classes = [
   {
     "class_id":144,
     "class_name":"FREE CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1874,7 +1730,6 @@ window.classes = [
   {
     "class_id":145,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1887,7 +1742,6 @@ window.classes = [
   {
     "class_id":146,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1900,7 +1754,6 @@ window.classes = [
   {
     "class_id":147,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1913,7 +1766,6 @@ window.classes = [
   {
     "class_id":148,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1926,7 +1778,6 @@ window.classes = [
   {
     "class_id":149,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1939,7 +1790,6 @@ window.classes = [
   {
     "class_id":150,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1952,7 +1802,6 @@ window.classes = [
   {
     "class_id":151,
     "class_name":"CoreRestore-Restorative Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1965,7 +1814,6 @@ window.classes = [
   {
     "class_id":152,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1978,7 +1826,6 @@ window.classes = [
   {
     "class_id":153,
     "class_name":"CorePower 1",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -1991,7 +1838,6 @@ window.classes = [
   {
     "class_id":154,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2004,7 +1850,6 @@ window.classes = [
   {
     "class_id":155,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2017,7 +1862,6 @@ window.classes = [
   {
     "class_id":156,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2030,7 +1874,6 @@ window.classes = [
   {
     "class_id":157,
     "class_name":"CorePower Yoga 2 Candlelight Flow",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2043,7 +1886,6 @@ window.classes = [
   {
     "class_id":158,
     "class_name":"CoreRestore-Restorative Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2056,7 +1898,6 @@ window.classes = [
   {
     "class_id":159,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2069,7 +1910,6 @@ window.classes = [
   {
     "class_id":160,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2082,7 +1922,6 @@ window.classes = [
   {
     "class_id":161,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2095,7 +1934,6 @@ window.classes = [
   {
     "class_id":162,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2108,7 +1946,6 @@ window.classes = [
   {
     "class_id":163,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2121,7 +1958,6 @@ window.classes = [
   {
     "class_id":164,
     "class_name":"CorePower 1",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2134,7 +1970,6 @@ window.classes = [
   {
     "class_id":165,
     "class_name":"Hot Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2147,7 +1982,6 @@ window.classes = [
   {
     "class_id":166,
     "class_name":"CorePower Yoga 1",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2160,7 +1994,6 @@ window.classes = [
   {
     "class_id":167,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2173,7 +2006,6 @@ window.classes = [
   {
     "class_id":168,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2186,7 +2018,6 @@ window.classes = [
   {
     "class_id":169,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2199,7 +2030,6 @@ window.classes = [
   {
     "class_id":170,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2212,7 +2042,6 @@ window.classes = [
   {
     "class_id":171,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2225,7 +2054,6 @@ window.classes = [
   {
     "class_id":172,
     "class_name":"CorePower 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2238,7 +2066,6 @@ window.classes = [
   {
     "class_id":173,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2251,7 +2078,6 @@ window.classes = [
   {
     "class_id":174,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2264,7 +2090,6 @@ window.classes = [
   {
     "class_id":175,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2277,7 +2102,6 @@ window.classes = [
   {
     "class_id":176,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2290,7 +2114,6 @@ window.classes = [
   {
     "class_id":177,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2303,7 +2126,6 @@ window.classes = [
   {
     "class_id":178,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2316,7 +2138,6 @@ window.classes = [
   {
     "class_id":179,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2329,7 +2150,6 @@ window.classes = [
   {
     "class_id":180,
     "class_name":"Black Tag/Member Workshop-Science of Inversions",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2342,7 +2162,6 @@ window.classes = [
   {
     "class_id":181,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2355,7 +2174,6 @@ window.classes = [
   {
     "class_id":182,
     "class_name":"Yoga Sculpt",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2368,7 +2186,6 @@ window.classes = [
   {
     "class_id":183,
     "class_name":"PYTT Friends and Family Class",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2381,7 +2198,6 @@ window.classes = [
   {
     "class_id":184,
     "class_name":"PYTT Friends and Family Class",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2394,7 +2210,6 @@ window.classes = [
   {
     "class_id":185,
     "class_name":"CorePower Yoga 2",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2407,7 +2222,6 @@ window.classes = [
   {
     "class_id":186,
     "class_name":"Hot Power Fusion",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2420,7 +2234,6 @@ window.classes = [
   {
     "class_id":187,
     "class_name":"CorePower Yoga 1.5",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2433,7 +2246,6 @@ window.classes = [
   {
     "class_id":188,
     "class_name":"CoreRestore-Restorative Yoga",
-    "studio_id_old":3,
     "studio_name":"Core PoweræYoga",
     "studio_img":"",
     "room_name":"",
@@ -2446,7 +2258,6 @@ window.classes = [
   {
     "class_id":189,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2459,7 +2270,6 @@ window.classes = [
   {
     "class_id":190,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2472,7 +2282,6 @@ window.classes = [
   {
     "class_id":191,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2485,7 +2294,6 @@ window.classes = [
   {
     "class_id":192,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2498,7 +2306,6 @@ window.classes = [
   {
     "class_id":193,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2511,7 +2318,6 @@ window.classes = [
   {
     "class_id":194,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2524,7 +2330,6 @@ window.classes = [
   {
     "class_id":195,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2537,7 +2342,6 @@ window.classes = [
   {
     "class_id":196,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2550,7 +2354,6 @@ window.classes = [
   {
     "class_id":197,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2563,7 +2366,6 @@ window.classes = [
   {
     "class_id":198,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2576,7 +2378,6 @@ window.classes = [
   {
     "class_id":199,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2589,7 +2390,6 @@ window.classes = [
   {
     "class_id":200,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2602,7 +2402,6 @@ window.classes = [
   {
     "class_id":201,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2615,7 +2414,6 @@ window.classes = [
   {
     "class_id":202,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2628,7 +2426,6 @@ window.classes = [
   {
     "class_id":203,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2641,7 +2438,6 @@ window.classes = [
   {
     "class_id":204,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2654,7 +2450,6 @@ window.classes = [
   {
     "class_id":205,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2667,7 +2462,6 @@ window.classes = [
   {
     "class_id":206,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2680,7 +2474,6 @@ window.classes = [
   {
     "class_id":207,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2693,7 +2486,6 @@ window.classes = [
   {
     "class_id":208,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2706,7 +2498,6 @@ window.classes = [
   {
     "class_id":209,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2719,7 +2510,6 @@ window.classes = [
   {
     "class_id":210,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2732,7 +2522,6 @@ window.classes = [
   {
     "class_id":211,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2745,7 +2534,6 @@ window.classes = [
   {
     "class_id":212,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2758,7 +2546,6 @@ window.classes = [
   {
     "class_id":213,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2771,7 +2558,6 @@ window.classes = [
   {
     "class_id":214,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2784,7 +2570,6 @@ window.classes = [
   {
     "class_id":215,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2797,7 +2582,6 @@ window.classes = [
   {
     "class_id":216,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2810,7 +2594,6 @@ window.classes = [
   {
     "class_id":217,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2823,7 +2606,6 @@ window.classes = [
   {
     "class_id":218,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2836,7 +2618,6 @@ window.classes = [
   {
     "class_id":219,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2849,7 +2630,6 @@ window.classes = [
   {
     "class_id":220,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2862,7 +2642,6 @@ window.classes = [
   {
     "class_id":221,
     "class_name":"Bikram Yoga",
-    "studio_id_old":4,
     "studio_name":"Bikram Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2875,7 +2654,6 @@ window.classes = [
   {
     "class_id":222,
     "class_name":"YASA Yin and Yang",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2888,7 +2666,6 @@ window.classes = [
   {
     "class_id":223,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2901,7 +2678,6 @@ window.classes = [
   {
     "class_id":224,
     "class_name":"YASA Basics",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2914,7 +2690,6 @@ window.classes = [
   {
     "class_id":225,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2927,7 +2702,6 @@ window.classes = [
   {
     "class_id":226,
     "class_name":"YASA Candlelight Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2940,7 +2714,6 @@ window.classes = [
   {
     "class_id":227,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2953,7 +2726,6 @@ window.classes = [
   {
     "class_id":228,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2966,7 +2738,6 @@ window.classes = [
   {
     "class_id":229,
     "class_name":"Mommy & Me",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2979,7 +2750,6 @@ window.classes = [
   {
     "class_id":230,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -2992,7 +2762,6 @@ window.classes = [
   {
     "class_id":231,
     "class_name":"YASA Core Fusion",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3005,7 +2774,6 @@ window.classes = [
   {
     "class_id":232,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3018,7 +2786,6 @@ window.classes = [
   {
     "class_id":233,
     "class_name":"YASA Candlelight Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3031,7 +2798,6 @@ window.classes = [
   {
     "class_id":234,
     "class_name":"YASA Yin and Yang",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3044,7 +2810,6 @@ window.classes = [
   {
     "class_id":235,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3057,7 +2822,6 @@ window.classes = [
   {
     "class_id":236,
     "class_name":"YASA Basics",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3070,7 +2834,6 @@ window.classes = [
   {
     "class_id":237,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3083,7 +2846,6 @@ window.classes = [
   {
     "class_id":238,
     "class_name":"YASA Candlelight Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3096,7 +2858,6 @@ window.classes = [
   {
     "class_id":239,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3109,7 +2870,6 @@ window.classes = [
   {
     "class_id":240,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3122,7 +2882,6 @@ window.classes = [
   {
     "class_id":241,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3135,7 +2894,6 @@ window.classes = [
   {
     "class_id":242,
     "class_name":"YASA Core Fusion",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3148,7 +2906,6 @@ window.classes = [
   {
     "class_id":243,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3161,7 +2918,6 @@ window.classes = [
   {
     "class_id":244,
     "class_name":"YASA Candlelight Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3174,7 +2930,6 @@ window.classes = [
   {
     "class_id":245,
     "class_name":"YASA Yin and Yang",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3187,7 +2942,6 @@ window.classes = [
   {
     "class_id":246,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3200,7 +2954,6 @@ window.classes = [
   {
     "class_id":247,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3213,7 +2966,6 @@ window.classes = [
   {
     "class_id":248,
     "class_name":"YASA Core Fusion",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3226,7 +2978,6 @@ window.classes = [
   {
     "class_id":249,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3239,7 +2990,6 @@ window.classes = [
   {
     "class_id":250,
     "class_name":"Pre Natal",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3252,7 +3002,6 @@ window.classes = [
   {
     "class_id":251,
     "class_name":"YASA Yin and Yang",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3265,7 +3014,6 @@ window.classes = [
   {
     "class_id":252,
     "class_name":"YASA Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3278,7 +3026,6 @@ window.classes = [
   {
     "class_id":253,
     "class_name":"YASA Hour Flow",
-    "studio_id_old":5,
     "studio_name":"Yasa Yoga",
     "studio_img":"",
     "room_name":"",
@@ -3291,7 +3038,6 @@ window.classes = [
   {
     "class_id":254,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3304,7 +3050,6 @@ window.classes = [
   {
     "class_id":255,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3317,7 +3062,6 @@ window.classes = [
   {
     "class_id":256,
     "class_name":"Power Hour Yoga",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3330,7 +3074,6 @@ window.classes = [
   {
     "class_id":257,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3343,7 +3086,6 @@ window.classes = [
   {
     "class_id":258,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3356,7 +3098,6 @@ window.classes = [
   {
     "class_id":259,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3369,7 +3110,6 @@ window.classes = [
   {
     "class_id":260,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3382,7 +3122,6 @@ window.classes = [
   {
     "class_id":261,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3395,7 +3134,6 @@ window.classes = [
   {
     "class_id":262,
     "class_name":"Rock Your Core",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3408,7 +3146,6 @@ window.classes = [
   {
     "class_id":263,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3421,7 +3158,6 @@ window.classes = [
   {
     "class_id":264,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3434,7 +3170,6 @@ window.classes = [
   {
     "class_id":265,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3447,7 +3182,6 @@ window.classes = [
   {
     "class_id":266,
     "class_name":"Power Hour Yoga",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3460,7 +3194,6 @@ window.classes = [
   {
     "class_id":267,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3473,7 +3206,6 @@ window.classes = [
   {
     "class_id":268,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3486,7 +3218,6 @@ window.classes = [
   {
     "class_id":269,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3499,7 +3230,6 @@ window.classes = [
   {
     "class_id":270,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3512,7 +3242,6 @@ window.classes = [
   {
     "class_id":271,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3525,7 +3254,6 @@ window.classes = [
   {
     "class_id":272,
     "class_name":"Shake Your Asana",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3538,7 +3266,6 @@ window.classes = [
   {
     "class_id":273,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3551,7 +3278,6 @@ window.classes = [
   {
     "class_id":274,
     "class_name":"Shake Your Asana",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3564,7 +3290,6 @@ window.classes = [
   {
     "class_id":275,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3577,7 +3302,6 @@ window.classes = [
   {
     "class_id":276,
     "class_name":"Power Hour Yoga",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3590,7 +3314,6 @@ window.classes = [
   {
     "class_id":277,
     "class_name":"Happy Hour of Power",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3603,7 +3326,6 @@ window.classes = [
   {
     "class_id":278,
     "class_name":"Monthly Masters",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3616,7 +3338,6 @@ window.classes = [
   {
     "class_id":279,
     "class_name":"Master Classæ",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3629,7 +3350,6 @@ window.classes = [
   {
     "class_id":280,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3642,7 +3362,6 @@ window.classes = [
   {
     "class_id":281,
     "class_name":"Shake Your Asana",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3655,7 +3374,6 @@ window.classes = [
   {
     "class_id":282,
     "class_name":"Basics of Power Vinyasa Yoga Workshop",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3668,7 +3386,6 @@ window.classes = [
   {
     "class_id":283,
     "class_name":"Basics of Yoga Workshop",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3681,7 +3398,6 @@ window.classes = [
   {
     "class_id":284,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3694,7 +3410,6 @@ window.classes = [
   {
     "class_id":285,
     "class_name":"Shake Your Asana",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3707,7 +3422,6 @@ window.classes = [
   {
     "class_id":286,
     "class_name":"All Levels",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3720,7 +3434,6 @@ window.classes = [
   {
     "class_id":287,
     "class_name":"Chill It Out",
-    "studio_id_old":6,
     "studio_name":"Power of Your Om Yoga Studio",
     "studio_img":"",
     "room_name":"",
@@ -3733,7 +3446,6 @@ window.classes = [
   {
     "class_id":288,
     "class_name":"Kundalini Yoga & Meditation",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3746,7 +3458,6 @@ window.classes = [
   {
     "class_id":289,
     "class_name":"Level 2-3",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3759,7 +3470,6 @@ window.classes = [
   {
     "class_id":290,
     "class_name":"Mindful Yoga, Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3772,7 +3482,6 @@ window.classes = [
   {
     "class_id":291,
     "class_name":"Vinyasa Level 2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3785,7 +3494,6 @@ window.classes = [
   {
     "class_id":292,
     "class_name":"Gentle Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3798,7 +3506,6 @@ window.classes = [
   {
     "class_id":293,
     "class_name":"Write From the Body",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3811,7 +3518,6 @@ window.classes = [
   {
     "class_id":294,
     "class_name":"Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3824,7 +3530,6 @@ window.classes = [
   {
     "class_id":295,
     "class_name":"Level 2-3",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3837,7 +3542,6 @@ window.classes = [
   {
     "class_id":296,
     "class_name":"Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3850,7 +3554,6 @@ window.classes = [
   {
     "class_id":297,
     "class_name":"Yin & Therapeutic Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3863,7 +3566,6 @@ window.classes = [
   {
     "class_id":298,
     "class_name":"Kundalini Yoga & Meditation",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3876,7 +3578,6 @@ window.classes = [
   {
     "class_id":299,
     "class_name":"Pilates Mat Class",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3889,7 +3590,6 @@ window.classes = [
   {
     "class_id":300,
     "class_name":"Sarah Tuttle's Class",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3902,7 +3602,6 @@ window.classes = [
   {
     "class_id":301,
     "class_name":"Soul Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3915,7 +3614,6 @@ window.classes = [
   {
     "class_id":302,
     "class_name":"Vital Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3928,7 +3626,6 @@ window.classes = [
   {
     "class_id":303,
     "class_name":"Gentle Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3941,7 +3638,6 @@ window.classes = [
   {
     "class_id":304,
     "class_name":"Yoga for Healing",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3954,7 +3650,6 @@ window.classes = [
   {
     "class_id":305,
     "class_name":"Pre Natal Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3967,7 +3662,6 @@ window.classes = [
   {
     "class_id":306,
     "class_name":"Level 1",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3980,7 +3674,6 @@ window.classes = [
   {
     "class_id":307,
     "class_name":"Level 2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -3993,7 +3686,6 @@ window.classes = [
   {
     "class_id":308,
     "class_name":"Kundalini Yoga & Meditation",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4006,7 +3698,6 @@ window.classes = [
   {
     "class_id":309,
     "class_name":"Level 2-3",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4019,7 +3710,6 @@ window.classes = [
   {
     "class_id":310,
     "class_name":"Healthy Happy Back",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4032,7 +3722,6 @@ window.classes = [
   {
     "class_id":311,
     "class_name":"Mindful Yoga, Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4045,7 +3734,6 @@ window.classes = [
   {
     "class_id":312,
     "class_name":"Vinyasa Level 2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4058,7 +3746,6 @@ window.classes = [
   {
     "class_id":313,
     "class_name":"Gentle Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4071,7 +3758,6 @@ window.classes = [
   {
     "class_id":314,
     "class_name":"Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4084,7 +3770,6 @@ window.classes = [
   {
     "class_id":315,
     "class_name":"Level 2-3",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4097,7 +3782,6 @@ window.classes = [
   {
     "class_id":316,
     "class_name":"Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4110,7 +3794,6 @@ window.classes = [
   {
     "class_id":317,
     "class_name":"Yin & Therapeutic Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4123,7 +3806,6 @@ window.classes = [
   {
     "class_id":318,
     "class_name":"Kundalini Yoga & Meditation",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4136,7 +3818,6 @@ window.classes = [
   {
     "class_id":319,
     "class_name":"Pilates Mat Class",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4149,7 +3830,6 @@ window.classes = [
   {
     "class_id":320,
     "class_name":"Sarah Tuttle's Class",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4162,7 +3842,6 @@ window.classes = [
   {
     "class_id":321,
     "class_name":"Vital Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4175,7 +3854,6 @@ window.classes = [
   {
     "class_id":322,
     "class_name":"Gentle Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4188,7 +3866,6 @@ window.classes = [
   {
     "class_id":323,
     "class_name":"Yoga for Healing",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4201,7 +3878,6 @@ window.classes = [
   {
     "class_id":324,
     "class_name":"Pre Natal Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4214,7 +3890,6 @@ window.classes = [
   {
     "class_id":325,
     "class_name":"Level 1",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4227,7 +3902,6 @@ window.classes = [
   {
     "class_id":326,
     "class_name":"Level 2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4240,7 +3914,6 @@ window.classes = [
   {
     "class_id":327,
     "class_name":"Kundalini Yoga & Meditation",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4253,7 +3926,6 @@ window.classes = [
   {
     "class_id":328,
     "class_name":"Level 2-3",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4266,7 +3938,6 @@ window.classes = [
   {
     "class_id":329,
     "class_name":"Mindful Yoga, Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4279,7 +3950,6 @@ window.classes = [
   {
     "class_id":330,
     "class_name":"Vinyasa Level 2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4292,7 +3962,6 @@ window.classes = [
   {
     "class_id":331,
     "class_name":"Vital Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4305,7 +3974,6 @@ window.classes = [
   {
     "class_id":332,
     "class_name":"Gentle Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4318,7 +3986,6 @@ window.classes = [
   {
     "class_id":333,
     "class_name":"Deep Relaxation & Healing",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4331,7 +3998,6 @@ window.classes = [
   {
     "class_id":334,
     "class_name":"Happy Hour Slow Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4344,7 +4010,6 @@ window.classes = [
   {
     "class_id":335,
     "class_name":"Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4357,7 +4022,6 @@ window.classes = [
   {
     "class_id":336,
     "class_name":"Yin Yoga & Meditation",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4370,7 +4034,6 @@ window.classes = [
   {
     "class_id":337,
     "class_name":"Kundalini of Sound",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4383,7 +4046,6 @@ window.classes = [
   {
     "class_id":338,
     "class_name":"Level 2-3",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4396,7 +4058,6 @@ window.classes = [
   {
     "class_id":339,
     "class_name":"Therapeutic & Restorative Yoga",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4409,7 +4070,6 @@ window.classes = [
   {
     "class_id":340,
     "class_name":"Sarah Tuttle's Class",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4422,7 +4082,6 @@ window.classes = [
   {
     "class_id":341,
     "class_name":"Dynamic Flow",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4435,7 +4094,6 @@ window.classes = [
   {
     "class_id":342,
     "class_name":"Level 1-2",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4448,7 +4106,6 @@ window.classes = [
   {
     "class_id":343,
     "class_name":"Healthy Happy Back",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4461,7 +4118,6 @@ window.classes = [
   {
     "class_id":344,
     "class_name":"All Levels",
-    "studio_id_old":7,
     "studio_name":"Santa Barbara Yoga Center",
     "studio_img":"",
     "room_name":"",
@@ -4474,7 +4130,6 @@ window.classes = [
   {
     "class_id":345,
     "class_name":"Vinyasaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4488,7 +4143,6 @@ window.classes = [
   {
     "class_id":346,
     "class_name":"Advanced Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4502,7 +4156,6 @@ window.classes = [
   {
     "class_id":347,
     "class_name":"Kundaliniæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4515,7 +4168,6 @@ window.classes = [
   {
     "class_id":348,
     "class_name":"Lunch Break Power Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4529,7 +4181,6 @@ window.classes = [
   {
     "class_id":349,
     "class_name":"Yogaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4543,7 +4194,6 @@ window.classes = [
   {
     "class_id":350,
     "class_name":"Conscious Kick Boxing",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4556,7 +4206,6 @@ window.classes = [
   {
     "class_id":351,
     "class_name":"Liquid Flow w/ Sacred Sound",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4569,7 +4218,6 @@ window.classes = [
   {
     "class_id":352,
     "class_name":"All Levels Power Vinyasa Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4582,7 +4230,6 @@ window.classes = [
   {
     "class_id":353,
     "class_name":"Vinyasa Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4596,7 +4243,6 @@ window.classes = [
   {
     "class_id":354,
     "class_name":"Power Vinyasa Level 2/3æ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4610,7 +4256,6 @@ window.classes = [
   {
     "class_id":355,
     "class_name":"Restorative Kundalini Yoga and Meditation",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4623,7 +4268,6 @@ window.classes = [
   {
     "class_id":356,
     "class_name":"Intro to Contact Improvisation",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -4636,7 +4280,6 @@ window.classes = [
   {
     "class_id":357,
     "class_name":"Intro to Contact Improvisation",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -4649,7 +4292,6 @@ window.classes = [
   {
     "class_id":358,
     "class_name":"Goddess Circle",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -4662,7 +4304,6 @@ window.classes = [
   {
     "class_id":359,
     "class_name":"Vinyasa",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4676,7 +4317,6 @@ window.classes = [
   {
     "class_id":360,
     "class_name":"Soul Shine Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4690,7 +4330,6 @@ window.classes = [
   {
     "class_id":361,
     "class_name":"Yoga and Meditation",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4703,7 +4342,6 @@ window.classes = [
   {
     "class_id":362,
     "class_name":"Cardio Dance",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4716,7 +4354,6 @@ window.classes = [
   {
     "class_id":363,
     "class_name":"All Levels Power Vinyasa Yogaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4730,7 +4367,6 @@ window.classes = [
   {
     "class_id":364,
     "class_name":"Vinyasa Basics",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4743,7 +4379,6 @@ window.classes = [
   {
     "class_id":365,
     "class_name":"Acu-Intuitive Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4757,7 +4392,6 @@ window.classes = [
   {
     "class_id":366,
     "class_name":"Power Vinyasa",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4770,7 +4404,6 @@ window.classes = [
   {
     "class_id":367,
     "class_name":"Yoga Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4784,7 +4417,6 @@ window.classes = [
   {
     "class_id":368,
     "class_name":"Prana Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4798,7 +4430,6 @@ window.classes = [
   {
     "class_id":369,
     "class_name":"Restorative & Yin Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4812,7 +4443,6 @@ window.classes = [
   {
     "class_id":370,
     "class_name":"Power Vinyasa Level 2/3",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4826,7 +4456,6 @@ window.classes = [
   {
     "class_id":371,
     "class_name":"Vinyasa Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4840,7 +4469,6 @@ window.classes = [
   {
     "class_id":372,
     "class_name":"Eclectic Yin Yang",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4854,7 +4482,6 @@ window.classes = [
   {
     "class_id":373,
     "class_name":"Kundalini",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4868,7 +4495,6 @@ window.classes = [
   {
     "class_id":374,
     "class_name":"Vinyasa",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4882,7 +4508,6 @@ window.classes = [
   {
     "class_id":375,
     "class_name":"Kundaliniæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4895,7 +4520,6 @@ window.classes = [
   {
     "class_id":376,
     "class_name":"Pilates-Yoga Fusion, All Levelsæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4908,7 +4532,6 @@ window.classes = [
   {
     "class_id":377,
     "class_name":"AyurYoga Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4922,7 +4545,6 @@ window.classes = [
   {
     "class_id":378,
     "class_name":"Prana Flowæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4936,7 +4558,6 @@ window.classes = [
   {
     "class_id":379,
     "class_name":"All Levels Power Vinyasa Yogaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4950,7 +4571,6 @@ window.classes = [
   {
     "class_id":380,
     "class_name":"Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4964,7 +4584,6 @@ window.classes = [
   {
     "class_id":381,
     "class_name":"Yoga Schmoga ~ Community Class",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -4977,7 +4596,6 @@ window.classes = [
   {
     "class_id":382,
     "class_name":"Conscious Kick Boxing",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -4990,7 +4608,6 @@ window.classes = [
   {
     "class_id":383,
     "class_name":"Slow Motion",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5004,7 +4621,6 @@ window.classes = [
   {
     "class_id":384,
     "class_name":"Power Vinyasa Level 2/3",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5018,7 +4634,6 @@ window.classes = [
   {
     "class_id":385,
     "class_name":"Restorative Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5032,7 +4647,6 @@ window.classes = [
   {
     "class_id":386,
     "class_name":"Partner Yoga & Flying",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -5045,7 +4659,6 @@ window.classes = [
   {
     "class_id":387,
     "class_name":"Hathaliniæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5058,7 +4671,6 @@ window.classes = [
   {
     "class_id":388,
     "class_name":"Yoga and Meditation",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5071,7 +4683,6 @@ window.classes = [
   {
     "class_id":389,
     "class_name":"Pilates-Yoga Fusion, Hot Level 2",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5084,7 +4695,6 @@ window.classes = [
   {
     "class_id":390,
     "class_name":"All Levels Power Vinyasa Yogaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5098,7 +4708,6 @@ window.classes = [
   {
     "class_id":391,
     "class_name":"Vinyasa Basicsæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5111,7 +4720,6 @@ window.classes = [
   {
     "class_id":392,
     "class_name":"Power Vinyasa",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5124,7 +4732,6 @@ window.classes = [
   {
     "class_id":393,
     "class_name":"Aroma Slow Flow Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5137,7 +4744,6 @@ window.classes = [
   {
     "class_id":394,
     "class_name":"Power Vinyasa Level 2/3",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5151,7 +4757,6 @@ window.classes = [
   {
     "class_id":395,
     "class_name":"Vinyasa Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5165,7 +4770,6 @@ window.classes = [
   {
     "class_id":396,
     "class_name":"Prana Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5179,7 +4783,6 @@ window.classes = [
   {
     "class_id":397,
     "class_name":"Restorative Kundalini Yoga and Meditation",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5192,7 +4795,6 @@ window.classes = [
   {
     "class_id":398,
     "class_name":"Ecstatic Groove",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Studio",
@@ -5205,7 +4807,6 @@ window.classes = [
   {
     "class_id":399,
     "class_name":"Vinyasaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5219,7 +4820,6 @@ window.classes = [
   {
     "class_id":400,
     "class_name":"Kundaliniæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5232,7 +4832,6 @@ window.classes = [
   {
     "class_id":401,
     "class_name":"Good Morning Power Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5246,7 +4845,6 @@ window.classes = [
   {
     "class_id":402,
     "class_name":"Slow Motion",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5259,7 +4857,6 @@ window.classes = [
   {
     "class_id":403,
     "class_name":"Vinyasa/Medical Chi Gong",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -5273,7 +4870,6 @@ window.classes = [
   {
     "class_id":404,
     "class_name":"All Levels Power Vinyasa Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5287,7 +4883,6 @@ window.classes = [
   {
     "class_id":405,
     "class_name":"Yogaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5301,7 +4896,6 @@ window.classes = [
   {
     "class_id":406,
     "class_name":"All Levels Power Vinyasa Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5314,7 +4908,6 @@ window.classes = [
   {
     "class_id":407,
     "class_name":"Mermaid Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5327,7 +4920,6 @@ window.classes = [
   {
     "class_id":408,
     "class_name":"Power Vinyasa All Levels",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5340,7 +4932,6 @@ window.classes = [
   {
     "class_id":409,
     "class_name":"Kundalini",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5353,7 +4944,6 @@ window.classes = [
   {
     "class_id":410,
     "class_name":"Restorative & Yin Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5367,7 +4957,6 @@ window.classes = [
   {
     "class_id":411,
     "class_name":"Full Moon Meditation & Gong Bath",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -5380,7 +4969,6 @@ window.classes = [
   {
     "class_id":412,
     "class_name":"Morning Practice",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5393,7 +4981,6 @@ window.classes = [
   {
     "class_id":413,
     "class_name":"Power Vinyasa Level 2/3",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5407,7 +4994,6 @@ window.classes = [
   {
     "class_id":414,
     "class_name":"Shimmy, Shake and Flowæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5420,7 +5006,6 @@ window.classes = [
   {
     "class_id":415,
     "class_name":"Power Vinyasa All Levelsæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5434,7 +5019,6 @@ window.classes = [
   {
     "class_id":416,
     "class_name":"Yoga for Precarious Times",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -5448,7 +5032,6 @@ window.classes = [
   {
     "class_id":417,
     "class_name":"Qi Gongæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5461,7 +5044,6 @@ window.classes = [
   {
     "class_id":418,
     "class_name":"Vinyasa Basicsæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5475,7 +5057,6 @@ window.classes = [
   {
     "class_id":419,
     "class_name":"Keep It Sacred",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"",
@@ -5488,7 +5069,6 @@ window.classes = [
   {
     "class_id":420,
     "class_name":"Liquid Flow with Sacred Sound",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5502,7 +5082,6 @@ window.classes = [
   {
     "class_id":421,
     "class_name":"Kundaliniæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5515,7 +5094,6 @@ window.classes = [
   {
     "class_id":422,
     "class_name":"All Levels Power Vinyasa Yoga",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5529,7 +5107,6 @@ window.classes = [
   {
     "class_id":423,
     "class_name":"Dharma Yoga and Qigong",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5542,7 +5119,6 @@ window.classes = [
   {
     "class_id":424,
     "class_name":"Power Vinyasaæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5555,7 +5131,6 @@ window.classes = [
   {
     "class_id":425,
     "class_name":"Capoeira Pacifica",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5568,7 +5143,6 @@ window.classes = [
   {
     "class_id":426,
     "class_name":"Eclectic Flow",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
@@ -5582,7 +5156,6 @@ window.classes = [
   {
     "class_id":427,
     "class_name":"Kirtan and Sacred Music",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Moon Room",
@@ -5595,7 +5168,6 @@ window.classes = [
   {
     "class_id":428,
     "class_name":"Vinyasa Flow - Community Classæ",
-    "studio_id_old":8,
     "studio_name":"Divinitree",
     "studio_img":"",
     "room_name":"Sun Room",
