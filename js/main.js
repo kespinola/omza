@@ -167,7 +167,7 @@
 
 		// Get slider settings
 		$.each(['strength','spirit','flex','balance','tempo'], function(i,e,j){
-			j = $('.slider-'+e);
+			j = $('.pane1 .slider-'+e);
 			if (j.hasClass('on')) {
 				attrs[e] = Math.round(+j.find('.slider-i').data('pct'));
 			}
@@ -175,7 +175,7 @@
 
 		// Get node values
 		$.each(['meditation','chanting','heated','healing','stand'], function(i,e,j){
-			j = $('.node-'+e);
+			j = $('.pane1 .node-'+e);
 			if (j.hasClass('on')) nodes[e] = 1;
 		});
 
