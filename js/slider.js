@@ -34,8 +34,12 @@
 			$bg.on('mousedown', function() {
 				$this.on('mousemove', slideMousemove);
 			}).on('mouseup', function() {
+				$doc.trigger('filter');
 				$this.off('mousemove', slideMousemove);
-			}).on('click', slideMousemove);
+			}).on('click', function(e) {
+				$doc.trigger('filter');
+				slideMousemove(e);
+			});
 
 			$doc.on('click', function () {
 				$this.off('mousemove', slideMousemove);

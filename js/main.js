@@ -1,6 +1,7 @@
 (function(window, $){
 
 	var 
+	$doc = $(document),
 	$body = $('body'),
 	$win = $(window),
 	classes = window.classes,
@@ -73,6 +74,21 @@
 		classList.html(html);
 		classList.find('.class-rating').each(ratings);
 	}
+
+	function filterData () {
+		var results = [];
+		$.each(classes, function(i){
+			this.id = i;
+			if (Math.random() < 0.5) {
+				results.push(this);
+			}
+		});
+		load_classes(results);
+	}
+
+	$doc.on('filter', window.debounce(function(){
+		filterData();
+	}, 200));
 
 	function ratings() {
 		var 
