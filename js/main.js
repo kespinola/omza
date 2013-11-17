@@ -157,7 +157,7 @@
 		+'</div>'
 		+'<div class="detail-reg">'
 		+	'<button type="button" class="btn btn-primary btn-detail-reg btn-large t02">'
-		+		'<span class="glyphicon glyphicon-ok t02"></span>Register for class'
+		+		'<span class="glyphicon glyphicon-ok t02"></span><span class="text">Register for class</span>'
 		+	'</button>'
 		+'</div>'
 		+'</div>';
@@ -259,7 +259,8 @@
 	});
 
 	$doc.on('click', '.btn-detail-reg', function () {
-		$(this).toggleClass('btn-primary btn-success');
+		var s = $(this).hasClass('btn-success');
+		$(this).toggleClass('btn-primary btn-success').find('.text').text(s ? 'Register for class' : 'Registered');
 	});
 
 	$doc.on('click', '.subhead-i', function () {
