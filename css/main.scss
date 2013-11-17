@@ -400,6 +400,10 @@ $studoWidth: 100px;
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 2px;
+    h3 {
+        padding: 0 6px;
+        background-color: #fff6ee;
+    }
 }
 .subhead-i {
     display: inline-block;
@@ -662,14 +666,12 @@ $studoWidth: 100px;
     margin-top: 14px;
     border-radius: 20px;
     float: left;
-    display: inline-block;
+    display: none;
     background-size: cover;
     margin-left: 10px;
 }
 .detail-teacher {
-    clear: both;
-    overflow: hidden;
-    zoom: 1;
+    float: left;
 }
 .detail-teacher .detail-opt {
     float: left;
@@ -685,6 +687,8 @@ $studoWidth: 100px;
         font-size: 13px;
         line-height: 70%;
     }
+    float: left;
+    margin-right: 16px;
 }
 .detail-left {
     width: 100%;
@@ -909,6 +913,19 @@ $panePadding: 20px;
         display: inline-block;
         padding-top: 10px;
         padding-left: 30px;
+    }
+    .detail-teacher {
+        clear: both;
+        overflow: hidden;
+        zoom: 1;
+        float: none;
+    }
+    .detail-icon {
+        display: inline-block;
+    }
+    .detail-opt {
+        float: none;
+        margin-right: 0;
     }
 }
 

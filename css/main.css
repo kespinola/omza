@@ -318,6 +318,9 @@ h1, h2, h3, h4 {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px; }
+  .subhead h3 {
+    padding: 0 6px;
+    background-color: #fff6ee; }
 
 .subhead-i {
   display: inline-block;
@@ -572,14 +575,12 @@ h1, h2, h3, h4 {
   margin-top: 14px;
   border-radius: 20px;
   float: left;
-  display: inline-block;
+  display: none;
   background-size: cover;
   margin-left: 10px; }
 
 .detail-teacher {
-  clear: both;
-  overflow: hidden;
-  zoom: 1; }
+  float: left; }
 
 .detail-teacher .detail-opt {
   float: left; }
@@ -588,7 +589,9 @@ h1, h2, h3, h4 {
   text-align: left;
   margin-bottom: 10px;
   font-size: 24px;
-  padding-top: 6px; }
+  padding-top: 6px;
+  float: left;
+  margin-right: 16px; }
   .detail-opt span {
     display: block;
     font-style: italic;
@@ -792,7 +795,20 @@ h1, h2, h3, h4 {
     float: left;
     display: inline-block;
     padding-top: 10px;
-    padding-left: 30px; } }
+    padding-left: 30px; }
+
+  .detail-teacher {
+    clear: both;
+    overflow: hidden;
+    zoom: 1;
+    float: none; }
+
+  .detail-icon {
+    display: inline-block; }
+
+  .detail-opt {
+    float: none;
+    margin-right: 0; } }
 @media only screen and (min-width: 1200px) {
   .class-list li {
     width: 31%;
