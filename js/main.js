@@ -171,7 +171,7 @@
 		+	node_html(c.node_chanting, 'chanting', 'Chanting')
 		+	node_html(c.node_heated, 'heated', 'Heated')
 		+	node_html(c.node_healing, 'healing', 'Injuries')
-		+	node_html(c.node_music, 'music', 'Music')
+		+	node_html(c.node_music, 'music', 'Live Music')
 		+	node_html(c.node_stand, 'stand', 'Inversions')
 		+'</div>'
 		+'<div class="detail-reg">'
@@ -224,7 +224,7 @@
 			for (k in attrs) {
 				if (attrs.hasOwnProperty(k)) {
 					var diff = Math.abs((+attrs[k]) - 10*this['attr_'+k]);
-					if (diff > 30) {
+					if (diff > 20) {
 						return;
 					}
 				}

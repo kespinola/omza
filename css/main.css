@@ -772,7 +772,7 @@ h1, h2, h3, h4 {
     font-size: 18px; }
 
 .pane1 .node {
-  opacity: 0.7; }
+  opacity: 0.6; }
   .pane1 .node:hover, .pane1 .node.on {
     opacity: 1; }
 
@@ -790,6 +790,10 @@ h1, h2, h3, h4 {
 
 .node-music {
   background-image: url(../img/node-music.png); }
+
+.node .music-label {
+  white-space: nowrap;
+  font-size: 17px; }
 
 .node-stand {
   background-image: url(../img/node-stand.png); }

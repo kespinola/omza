@@ -897,7 +897,7 @@ $studoWidth: 100px;
     }
 }
 .pane1 .node {
-    opacity: 0.7;
+    opacity: 0.6;
     &:hover, &.on {
         opacity: 1;
     }
@@ -916,6 +916,10 @@ $studoWidth: 100px;
 }
 .node-music {
     background-image: url(../img/node-music.png);
+}
+.node .music-label {
+    white-space: nowrap;
+    font-size: 17px;
 }
 .node-stand {
     background-image: url(../img/node-stand.png);
