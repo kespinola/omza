@@ -19,8 +19,8 @@ html {
   line-height: 1.4; }
 
 body {
-  color: #b4a99c;
-  font-weight: 100;
+  color: #94887b;
+  font-weight: 300;
   letter-spacing: 1px; }
 
 /*
@@ -327,7 +327,7 @@ h1, h2, h3, h4 {
   .subhead h3 {
     padding: 0 6px;
     background-color: #fff6ee;
-    color: #b4a99c; }
+    color: #94887b; }
 
 .mode-1 .subhead {
   display: none; }
@@ -502,7 +502,8 @@ h1, h2, h3, h4 {
 
 .class-right h3 {
   margin-right: 70px;
-  font-size: 18px; }
+  font-size: 18px;
+  font-weight: 300; }
 
 .class-icon {
   width: 60px;
@@ -722,7 +723,6 @@ h1, h2, h3, h4 {
   position: relative; }
 
 .js-slider .slider-bg {
-  opacity: 0.7;
   cursor: pointer; }
 
 .js-slider.on .slider-bg {
@@ -743,7 +743,6 @@ h1, h2, h3, h4 {
 .slider-l {
   line-height: 30px;
   color: #999;
-  font-weight: 100;
   position: absolute;
   top: 0;
   left: 12px;
@@ -791,7 +790,7 @@ h1, h2, h3, h4 {
 .node-music {
   background-image: url(../img/node-music.png); }
 
-.node .music-label {
+.node-music span {
   white-space: nowrap;
   font-size: 17px; }
 
@@ -820,7 +819,7 @@ h1, h2, h3, h4 {
   cursor: pointer;
   text-decoration: underline;
   margin-top: 6px;
-  color: #b4a99c; }
+  color: #94887b; }
 
 /**
  * Media Queries
@@ -840,11 +839,11 @@ h1, h2, h3, h4 {
     margin-left: 20px; }
   .mode-1 .sub-pane1 h1 {
     font-size: 72px;
-    color: #b4a99c; }
+    color: #94887b; }
   .mode-1 .sub-pane1 h4 {
     font-size: 24px;
     margin: 10px 0;
-    color: #b4a99c; }
+    color: #94887b; }
 
   .sub-pane1 {
     display: inline-block;
